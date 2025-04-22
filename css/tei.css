@@ -1,0 +1,12 @@
+tei-div {
+  display: block;
+}
+tei-p, tei-u, tei-seg {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+tei-u > tei-note {
+  margin-right: 1em;
+  color: blue;
+}
