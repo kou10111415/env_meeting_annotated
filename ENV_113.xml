@@ -5,14 +5,66 @@
 			<titleStmt>
 				<title type="main">環境省　中央環境審議会　総合政策部会（第１１３回）議事録 [Parla-CLARIN]</title>
 				<title type="sub">中央環境審議会　総合政策部会（第１１３回）議事録</title>
+				<author
+					ref="https://orcid.org/0009-0005-6788-1812 https://researchmap.jp/Kohei_ISHII">
+					<surname>石井</surname>
+					<forename>康平</forename>
+				</author>
+				<editor
+					ref="https://orcid.org/0009-0005-6788-1812 https://researchmap.jp/Kohei_ISHII">
+					<surname>石井</surname>
+					<forename>康平</forename>
+				</editor>
+				<respStmt>
+					<resp>TEI符号化</resp>
+					<name>石井康平</name>
+				</respStmt>
 			</titleStmt>
+			<extent>
+				<measure unit="texts" quantity="1">1 text</measure>
+				<measure unit="utterances" quantity="85">85 utterances</measure>
+				<measure unit="segments" quantity="395">395 segments</measure>
+			</extent>
 			<publicationStmt>
 				<publisher>環境省</publisher>
+				<authority>石井康平</authority>
+				<date when="2025-05-12">2025年5月12日</date>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by-sa/4.0/"
+						>クリエイティブ・コモンズ　表示 - 継承 4.0 国際 (CC BY-SA 4.0)</licence>
+				</availability>
+				<distributor>石井康平</distributor>
 			</publicationStmt>
 			<sourceDesc>
-				<p>Source: https://www.env.go.jp/council/02policy/post_114_00008.html</p>
+				<bibl>
+					<title level="m">中央環境審議会 総合政策部会（第113回）議事録</title>
+					<author>環境省</author>
+					<date when="2024-01-29">2024年1月29日</date>
+					<idno type="URI"
+						>https://www.env.go.jp/council/02policy/post_114_00008.html</idno>
+				</bibl>
 			</sourceDesc>
 		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>本TEI文書は，<ref target="https://clarin-eric.github.io/parla-clarin/"
+						>"Parla-CLARIN: A TEI Schema for Corpora of Parliamentary Proceedings, v0.3, 2022-05-03"</ref>に準拠し、中央環境審議会総合政策部会の会議議事録を構造化している．</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<settingDesc>
+				<setting>
+					<name>環境省 中央環境審議会 総合政策部会</name>
+					<placeName>ビジョンセンター東京駅前７０５会議室</placeName>
+					<name type="city">東京</name>
+					<name type="country" key="ja">日本</name>
+					<date when="2024-01-29">2024年1月29日</date>
+				</setting>
+			</settingDesc>
+			<langUsage>
+				<language ident="ja">日本語</language>
+			</langUsage>
+		</profileDesc>
 	</teiHeader>
 	<standOff>
 		<listPerson>
@@ -188,6 +240,27 @@
 						><orgName>(一社)日本経済団体連合会環境委員会地球環境部会</orgName><roleName>委員</roleName><orgName><orgName>トヨタ自動車（株）CN開発センター</orgName><orgName>環境エンジニアリング部</orgName></orgName><roleName>チーフプロフェッショナルエンジニア</roleName></affiliation>
 			</person>
 		</listPerson>
+		<listPerson>
+			<head>総合政策部会_環境省担当官</head>
+			<person xml:id="Higashioka_ENV">
+				<persName>
+					<surname>東岡</surname>
+				</persName>
+				<affiliation n="1">
+					<orgName>環境省</orgName>
+					<roleName>計画官</roleName>
+				</affiliation>
+			</person>
+			<person xml:id="Ohkura_ENV">
+				<persName>
+					<surname>大倉</surname>
+				</persName>
+				<affiliation n="1">
+					<orgName>環境省環境影響評価課</orgName>
+					<roleName>課長</roleName>
+				</affiliation>
+			</person>
+		</listPerson>
 		<listRelation>
 			<relation xml:id="a1" type="CRM" name="P70_documents" active="minutes/113#u5seg91"
 				passive="meeting/113#u5seg91"/>
@@ -209,26 +282,563 @@
 				passive="document/soan#p56l16"/>
 			<relation xml:id="a10" type="PROV" name="wasDerivedFrom" active="document/an#p126l27"
 				passive="minutes/113#u5seg91"/>
-
+			<relation xml:id="a11" type="CRM" name="P70_documents" active="minutes/113#u5seg92"
+				passive="meeting/113#u5seg92"/>
+			<relation xml:id="a12" type="PROV" name="used" active="meeting/113#u5seg92"
+				passive="document/soan#p40l37"/>
+			<relation xml:id="a13" type="PROV" name="wasInformedBy" active="creation/an#p44l2"
+				passive="meeting/113#u5seg92"/>
+			<relation xml:id="a14" type="PROV" name="wasGeneratedBy" active="document/an#p44l2"
+				passive="creation/an#p44l2"/>
+			<relation xml:id="a15" type="PROV" name="wasRevisionOf" active="document/an#p44l2"
+				passive="document/soan#p40l37"/>
+			<relation xml:id="a16" type="PROV" name="wasDerivedFrom" active="document/an#p44l2"
+				passive="minutes/113#u5seg92"/>
+			<relation xml:id="a17" type="CRM" name="P70_documents" active="minutes/113#u11seg111"
+				passive="meeting/113#u11seg111"/>
+			<relation xml:id="a18" type="PROV" name="used" active="meeting/113#u11seg111"
+				passive="document/soan#p16l12"/>
+			<relation xml:id="a19" type="PROV" name="wasInformedBy" active="creation/an#p18l46"
+				passive="meeting/113#u11seg111"/>
+			<relation xml:id="a20" type="PROV" name="wasGeneratedBy" active="document/an#p18l46"
+				passive="creation/an#p18l46"/>
+			<relation xml:id="a21" type="PROV" name="wasRevisionOf" active="document/an#p18l46"
+				passive="document/soan#p16l12"/>
+			<relation xml:id="a22" type="PROV" name="wasDerivedFrom" active="document/an#p18l46"
+				passive="minutes/113#u11seg111"/>
+			<relation xml:id="a23" type="PROV" name="wasRevisionOf" active="document/an#p61l26"
+				passive="document/soan#p53l14"/>
+			<relation xml:id="a24" type="PROV" name="wasDerivedFrom" active="document/an#p75l10"
+				passive="minutes/113#u57seg285"/>
+			<relation xml:id="a25" type="PROV" name="wasRevisionOf" active="document/an#p148l19"
+				passive="document/soan#p35l28"/>
+			<relation xml:id="a26" type="PROV" name="wasInformedBy" active="creation/an#p37l31"
+				passive="meeting/113#u17seg135"/>
+			<relation xml:id="a27" type="PROV" name="wasInformedBy" active="creation/an#p5l10"
+				passive="meeting/113#u23seg160"/>
+			<relation xml:id="a28" type="PROV" name="wasGeneratedBy" active="document/an#p70l33"
+				passive="creation/an#p70l33"/>
+			<relation xml:id="a29" type="PROV" name="wasDerivedFrom" active="document/an#p48l22"
+				passive="minutes/113#u37seg211"/>
+			<relation xml:id="a30" type="PROV" name="wasInformedBy" active="creation/an#p110l3"
+				passive="meeting/113#u71seg344"/>
+			<relation xml:id="a31" type="PROV" name="wasGeneratedBy" active="document/an#p61l26"
+				passive="creation/an#p61l26"/>
+			<relation xml:id="a32" type="PROV" name="wasDerivedFrom" active="document/an#p59l18"
+				passive="minutes/113#u59seg292"/>
+			<relation xml:id="a33" type="CRM" name="P70_documents" active="minutes/113#u57seg285"
+				passive="meeting/113#u57seg285"/>
+			<relation xml:id="a34" type="PROV" name="used" active="meeting/113#u17seg135"
+				passive="document/soan#p32l3"/>
+			<relation xml:id="a35" type="PROV" name="wasRevisionOf" active="document/an#p84l19"
+				passive="document/soan#p35l28"/>
+			<relation xml:id="a36" type="PROV" name="wasDerivedFrom" active="document/an#p172n143"
+				passive="minutes/113#u19seg144"/>
+			<relation xml:id="a37" type="PROV" name="wasGeneratedBy" active="document/an#(p126l27)"
+				passive="creation/an#(p126l27)"/>
+			<relation xml:id="a38" type="PROV" name="wasGeneratedBy" active="document/an#p48l6"
+				passive="creation/an#p48l6"/>
+			<relation xml:id="a39" type="PROV" name="wasDerivedFrom" active="document/an#p18n46"
+				passive="minutes/113#u11seg111"/>
+			<relation xml:id="a40" type="CRM" name="P70_documents" active="minutes/113#u77seg363"
+				passive="meeting/113#u77seg363"/>
+			<relation xml:id="a41" type="PROV" name="wasRevisionOf" active="document/an#p85l20"
+				passive="document/soan#p73l37"/>
+			<relation xml:id="a42" type="PROV" name="wasRevisionOf" active="document/an#p59l18"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a43" type="PROV" name="used" active="meeting/113#u11seg115"
+				passive="document/soan#p73l37"/>
+			<relation xml:id="a44" type="PROV" name="wasGeneratedBy" active="document/an#p64l20"
+				passive="creation/an#p64l20"/>
+			<relation xml:id="a45" type="PROV" name="wasGeneratedBy" active="document/an#p127l17"
+				passive="creation/an#p127l17"/>
+			<relation xml:id="a46" type="CRM" name="P70_documents" active="minutes/113#u11seg115"
+				passive="meeting/113#u11seg115"/>
+			<relation xml:id="a47" type="PROV" name="used" active="meeting/113#u19seg144"
+				passive="document/soan#p61l30"/>
+			<relation xml:id="a48" type="PROV" name="wasDerivedFrom" active="document/an#p37l34"
+				passive="minutes/113#u11seg112"/>
+			<relation xml:id="a49" type="PROV" name="wasRevisionOf" active="document/an#p113l26"
+				passive="document/soan#p35l28"/>
+			<relation xml:id="a50" type="PROV" name="used" active="meeting/113#u35seg201"
+				passive="document/soan#p34l30"/>
+			<relation xml:id="a51" type="PROV" name="wasGeneratedBy" active="document/an#p37l31"
+				passive="creation/an#p37l31"/>
+			<relation xml:id="a52" type="PROV" name="used" active="meeting/113#u37seg210"
+				passive="document/soan#p44l31"/>
+			<relation xml:id="a53" type="PROV" name="wasInformedBy" active="creation/an#p74l11"
+				passive="meeting/113#u53seg267"/>
+			<relation xml:id="a54" type="PROV" name="wasRevisionOf" active="document/an#p74l11"
+				passive="document/soan#p63l21"/>
+			<relation xml:id="a55" type="PROV" name="wasInformedBy" active="creation/an#p20n52"
+				passive="meeting/113#u77seg363"/>
+			<relation xml:id="a56" type="PROV" name="wasDerivedFrom" active="document/an#p5l10"
+				passive="minutes/113#u23seg160"/>
+			<relation xml:id="a57" type="PROV" name="wasGeneratedBy" active="document/an#p115l25"
+				passive="creation/an#p115l25"/>
+			<relation xml:id="a58" type="PROV" name="used" active="meeting/113#u65seg322"
+				passive="document/soan#p55l7"/>
+			<relation xml:id="a59" type="PROV" name="wasGeneratedBy" active="document/an#p48l22"
+				passive="creation/an#p48l22"/>
+			<relation xml:id="a60" type="PROV" name="wasRevisionOf" active="document/an#p35l3"
+				passive="document/soan#p32l3"/>
+			<relation xml:id="a61" type="PROV" name="wasInformedBy" active="creation/an#p20n52"
+				passive="meeting/113#u77seg362"/>
+			<relation xml:id="a62" type="PROV" name="wasGeneratedBy" active="document/an#p35l3"
+				passive="creation/an#p35l3"/>
+			<relation xml:id="a63" type="PROV" name="wasRevisionOf" active="document/an#p151l33"
+				passive="document/soan#p30l19"/>
+			<relation xml:id="a64" type="PROV" name="wasInformedBy" active="creation/an#p92l3"
+				passive="meeting/113#u80seg372"/>
+			<relation xml:id="a65" type="PROV" name="used" active="meeting/113#u80seg372"
+				passive="document/soan#p80l12"/>
+			<relation xml:id="a66" type="CRM" name="P70_documents" active="minutes/113#u17seg136"
+				passive="meeting/113#u17seg136"/>
+			<relation xml:id="a67" type="PROV" name="wasDerivedFrom" active="document/an#p150l31"
+				passive="minutes/113#u43seg233"/>
+			<relation xml:id="a68" type="PROV" name="wasGeneratedBy" active="document/an#p18n46"
+				passive="creation/an#p18n46"/>
+			<relation xml:id="a69" type="PROV" name="wasInformedBy" active="creation/an#p92l3"
+				passive="meeting/113#u59seg295"/>
+			<relation xml:id="a70" type="PROV" name="wasInformedBy" active="creation/an#p146l29"
+				passive="meeting/113#u45seg242"/>
+			<relation xml:id="a71" type="PROV" name="wasGeneratedBy" active="document/an#p9l21"
+				passive="creation/an#p9l21"/>
+			<relation xml:id="a72" type="PROV" name="wasDerivedFrom" active="document/an#p110l3"
+				passive="minutes/113#u71seg344"/>
+			<relation xml:id="a73" type="PROV" name="used" active="meeting/113#u57seg284"
+				passive="document/soan#p15l12"/>
+			<relation xml:id="a74" type="PROV" name="used" active="meeting/113#unansegnan"
+				passive="document/soan#nan"/>
+			<relation xml:id="a75" type="CRM" name="P70_documents" active="minutes/113#u57seg284"
+				passive="meeting/113#u57seg284"/>
+			<relation xml:id="a76" type="PROV" name="wasRevisionOf" active="document/an#nan"
+				passive="document/soan#nan"/>
+			<relation xml:id="a77" type="PROV" name="wasInformedBy" active="creation/an#nan"
+				passive="meeting/113#unansegnan"/>
+			<relation xml:id="a78" type="PROV" name="wasRevisionOf" active="document/an#p64l20"
+				passive="document/soan#p55l22"/>
+			<relation xml:id="a79" type="PROV" name="wasGeneratedBy" active="document/an#p92l3"
+				passive="creation/an#p92l3"/>
+			<relation xml:id="a80" type="PROV" name="wasInformedBy" active="creation/an#p85l20"
+				passive="meeting/113#u11seg115"/>
+			<relation xml:id="a81" type="PROV" name="used" active="meeting/113#u57seg283"
+				passive="document/soan#p7l18"/>
+			<relation xml:id="a82" type="PROV" name="wasRevisionOf" active="document/an#p78l11"
+				passive="document/soan#p61l30"/>
+			<relation xml:id="a83" type="PROV" name="wasRevisionOf" active="document/an#p37l31"
+				passive="document/soan#p34l30"/>
+			<relation xml:id="a84" type="PROV" name="wasRevisionOf" active="document/an#p126l8"
+				passive="document/soan#p49l33"/>
+			<relation xml:id="a85" type="PROV" name="wasRevisionOf" active="document/an#p17l19"
+				passive="document/soan#p15l12"/>
+			<relation xml:id="a86" type="PROV" name="wasRevisionOf" active="document/an#p150l31"
+				passive="document/soan#p30l19"/>
+			<relation xml:id="a87" type="PROV" name="wasGeneratedBy" active="document/an#p110l3"
+				passive="creation/an#p110l3"/>
+			<relation xml:id="a88" type="CRM" name="P70_documents" active="minutes/113#u49seg257"
+				passive="meeting/113#u49seg257"/>
+			<relation xml:id="a89" type="PROV" name="wasInformedBy" active="creation/an#p59l18"
+				passive="meeting/113#u59seg292"/>
+			<relation xml:id="a90" type="PROV" name="used" active="meeting/113#u35seg200"
+				passive="document/soan#p12l10"/>
+			<relation xml:id="a91" type="CRM" name="P70_documents" active="minutes/113#u23seg161"
+				passive="meeting/113#u23seg161"/>
+			<relation xml:id="a92" type="PROV" name="wasInformedBy" active="creation/an#p127l17"
+				passive="meeting/113#u65seg322"/>
+			<relation xml:id="a93" type="PROV" name="wasDerivedFrom" active="document/an#p126l8"
+				passive="minutes/113#u57seg285"/>
+			<relation xml:id="a94" type="PROV" name="wasDerivedFrom" active="document/an#p47l23"
+				passive="minutes/113#u37seg210"/>
+			<relation xml:id="a95" type="PROV" name="wasRevisionOf" active="document/an#p5l32"
+				passive="document/soan#p30l19"/>
+			<relation xml:id="a96" type="PROV" name="wasInformedBy" active="creation/an#p166l22"
+				passive="meeting/113#u75seg356"/>
+			<relation xml:id="a97" type="PROV" name="used" active="meeting/113#u49seg257"
+				passive="document/soan#p7n12"/>
+			<relation xml:id="a98" type="PROV" name="used" active="meeting/113#u77seg362"
+				passive="document/soan#p17l25, p38l15"/>
+			<relation xml:id="a99" type="CRM" name="P70_documents" active="minutes/113#u43seg233"
+				passive="meeting/113#u43seg233"/>
+			<relation xml:id="a100" type="PROV" name="wasDerivedFrom" active="document/an#p70l33"
+				passive="minutes/113#u71seg345"/>
+			<relation xml:id="a101" type="PROV" name="wasInformedBy" active="creation/an#p24n66"
+				passive="meeting/113#u59seg296"/>
+			<relation xml:id="a102" type="PROV" name="wasGeneratedBy" active="document/an#p113l26"
+				passive="creation/an#p113l26"/>
+			<relation xml:id="a103" type="PROV" name="wasGeneratedBy" active="document/an#p78l11"
+				passive="creation/an#p78l11"/>
+			<relation xml:id="a104" type="PROV" name="wasInformedBy" active="creation/an#p148l19"
+				passive="meeting/113#u29seg177"/>
+			<relation xml:id="a105" type="PROV" name="wasInformedBy" active="creation/an#p126l8"
+				passive="meeting/113#u57seg285"/>
+			<relation xml:id="a106" type="PROV" name="used" active="meeting/113#u67seg330"
+				passive="document/soan#p49l33"/>
+			<relation xml:id="a107" type="PROV" name="wasDerivedFrom" active="document/an#p125l11"
+				passive="minutes/113#u33seg194"/>
+			<relation xml:id="a108" type="PROV" name="used" active="meeting/113#u17seg135"
+				passive="document/soan#p34l30"/>
+			<relation xml:id="a109" type="PROV" name="used" active="meeting/113#u37seg211"
+				passive="document/soan#p45l14"/>
+			<relation xml:id="a110" type="CRM" name="P70_documents" active="minutes/113#u45seg242"
+				passive="meeting/113#u45seg242"/>
+			<relation xml:id="a111" type="PROV" name="wasRevisionOf" active="document/an#p127l17"
+				passive="document/soan#p56l4"/>
+			<relation xml:id="a112" type="PROV" name="wasInformedBy" active="creation/an#p70l33"
+				passive="meeting/113#u71seg345"/>
+			<relation xml:id="a113" type="CRM" name="P70_documents" active="minutes/113#u59seg296"
+				passive="meeting/113#u59seg296"/>
+			<relation xml:id="a114" type="PROV" name="wasInformedBy" active="creation/an#p150l31"
+				passive="meeting/113#u43seg233"/>
+			<relation xml:id="a115" type="PROV" name="wasRevisionOf" active="document/an#p70l33"
+				passive="document/soan#p58l21"/>
+			<relation xml:id="a116" type="PROV" name="used" active="meeting/113#u37seg211"
+				passive="document/soan#p45l29"/>
+			<relation xml:id="a117" type="PROV" name="wasGeneratedBy" active="document/an#p85l20"
+				passive="creation/an#p85l20"/>
+			<relation xml:id="a118" type="PROV" name="wasGeneratedBy" active="document/an#p172n143"
+				passive="creation/an#p172n143"/>
+			<relation xml:id="a119" type="PROV" name="wasRevisionOf" active="document/an#p172n143"
+				passive="document/soan#p61l30"/>
+			<relation xml:id="a120" type="PROV" name="wasRevisionOf" active="document/an#p125l11"
+				passive="document/soan#p55l22"/>
+			<relation xml:id="a121" type="PROV" name="wasDerivedFrom" active="document/an#p9l21"
+				passive="minutes/113#u49seg257"/>
+			<relation xml:id="a122" type="PROV" name="wasDerivedFrom" active="document/an#p74l11"
+				passive="minutes/113#u53seg267"/>
+			<relation xml:id="a123" type="PROV" name="used" active="meeting/113#u17seg136"
+				passive="document/soan#p55l7"/>
+			<relation xml:id="a124" type="PROV" name="wasRevisionOf" active="document/an#p18l19"
+				passive="document/soan#p12l10"/>
+			<relation xml:id="a125" type="PROV" name="wasInformedBy" active="creation/an#p84l19"
+				passive="meeting/113#u29seg177"/>
+			<relation xml:id="a126" type="PROV" name="wasInformedBy" active="creation/an#p17l19"
+				passive="meeting/113#u57seg284"/>
+			<relation xml:id="a127" type="PROV" name="wasGeneratedBy" active="document/an#p47l23"
+				passive="creation/an#p47l23"/>
+			<relation xml:id="a128" type="PROV" name="used" active="meeting/113#u43seg233"
+				passive="document/soan#p30l19"/>
+			<relation xml:id="a129" type="PROV" name="wasGeneratedBy" active="document/an#p20n52"
+				passive="creation/an#p20n52"/>
+			<relation xml:id="a130" type="PROV" name="wasGeneratedBy" active="document/an#p151l33"
+				passive="creation/an#p151l33"/>
+			<relation xml:id="a131" type="PROV" name="wasRevisionOf" active="document/an#p64l20"
+				passive="document/soan#p49l33"/>
+			<relation xml:id="a132" type="PROV" name="wasGeneratedBy" active="document/an#p75l10"
+				passive="creation/an#p75l10"/>
+			<relation xml:id="a133" type="PROV" name="wasDerivedFrom" active="document/an#p37l31"
+				passive="minutes/113#u35seg201"/>
+			<relation xml:id="a134" type="PROV" name="wasDerivedFrom" active="document/an#p89l15"
+				passive="minutes/113#u17seg136"/>
+			<relation xml:id="a135" type="CRM" name="P70_documents" active="minutes/113#u11seg114"
+				passive="meeting/113#u11seg114"/>
+			<relation xml:id="a136" type="PROV" name="wasDerivedFrom" active="document/an#p115l25"
+				passive="minutes/113#u29seg177"/>
+			<relation xml:id="a137" type="PROV" name="used" active="meeting/113#u75seg356"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a138" type="PROV" name="wasRevisionOf" active="document/an#p166l22"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a139" type="CRM" name="P70_documents" active="minutes/113#u19seg144"
+				passive="meeting/113#u19seg144"/>
+			<relation xml:id="a140" type="PROV" name="wasInformedBy" active="creation/an#(p126l27)"
+				passive="meeting/113#u45seg241"/>
+			<relation xml:id="a141" type="PROV" name="wasRevisionOf" active="document/an#p9l21"
+				passive="document/soan#p7n12"/>
+			<relation xml:id="a142" type="PROV" name="wasInformedBy" active="creation/an#p35l3"
+				passive="meeting/113#u17seg135"/>
+			<relation xml:id="a143" type="CRM" name="P70_documents" active="minutes/113#u37seg210"
+				passive="meeting/113#u37seg210"/>
+			<relation xml:id="a144" type="PROV" name="wasInformedBy" active="creation/an#p67l1"
+				passive="meeting/113#u23seg161"/>
+			<relation xml:id="a145" type="PROV" name="used" active="meeting/113#u53seg267"
+				passive="document/soan#p63l21"/>
+			<relation xml:id="a146" type="PROV" name="wasDerivedFrom" active="document/an#p61l26"
+				passive="minutes/113#u11seg114"/>
+			<relation xml:id="a147" type="PROV" name="used" active="meeting/113#u57seg285"
+				passive="document/soan#p49l33"/>
+			<relation xml:id="a148" type="PROV" name="wasDerivedFrom" active="document/an#p64l20"
+				passive="minutes/113#u57seg285"/>
+			<relation xml:id="a149" type="PROV" name="wasGeneratedBy" active="document/an#p37l34"
+				passive="creation/an#p37l34"/>
+			<relation xml:id="a150" type="PROV" name="wasDerivedFrom" active="document/an#p18l19"
+				passive="minutes/113#u35seg200"/>
+			<relation xml:id="a151" type="PROV" name="wasDerivedFrom" active="document/an#p67l1"
+				passive="minutes/113#u23seg161"/>
+			<relation xml:id="a152" type="PROV" name="wasGeneratedBy" active="document/an#p5l32"
+				passive="creation/an#p5l32"/>
+			<relation xml:id="a153" type="PROV" name="wasRevisionOf" active="document/an#p110l3"
+				passive="document/soan#p77l4"/>
+			<relation xml:id="a154" type="PROV" name="wasRevisionOf" active="document/an#p127l17"
+				passive="document/soan#p55l7"/>
+			<relation xml:id="a155" type="PROV" name="wasInformedBy" active="creation/an#p132l2"
+				passive="meeting/113#u59seg292"/>
+			<relation xml:id="a156" type="PROV" name="used" active="meeting/113#u65seg322"
+				passive="document/soan#p56l4"/>
+			<relation xml:id="a157" type="PROV" name="wasInformedBy" active="creation/an#p5l32"
+				passive="meeting/113#u43seg233"/>
+			<relation xml:id="a158" type="PROV" name="wasInformedBy" active="creation/an#p64l20"
+				passive="meeting/113#u57seg285"/>
+			<relation xml:id="a159" type="PROV" name="used" active="meeting/113#u11seg114"
+				passive="document/soan#p53l14"/>
+			<relation xml:id="a160" type="PROV" name="wasInformedBy" active="creation/an#p48l22"
+				passive="meeting/113#u37seg211"/>
+			<relation xml:id="a161" type="PROV" name="wasDerivedFrom" active="document/an#p127l17"
+				passive="minutes/113#u65seg322"/>
+			<relation xml:id="a162" type="PROV" name="wasDerivedFrom" active="document/an#(p126l27)"
+				passive="minutes/113#u45seg241"/>
+			<relation xml:id="a163" type="CRM" name="P70_documents" active="minutes/113#u57seg283"
+				passive="meeting/113#u57seg283"/>
+			<relation xml:id="a164" type="PROV" name="wasGeneratedBy" active="document/an#p67l1"
+				passive="creation/an#p67l1"/>
+			<relation xml:id="a165" type="PROV" name="wasInformedBy" active="creation/an#p61l26"
+				passive="meeting/113#u11seg114"/>
+			<relation xml:id="a166" type="PROV" name="wasGeneratedBy" active="document/an#p18l19"
+				passive="creation/an#p18l19"/>
+			<relation xml:id="a167" type="CRM" name="P70_documents" active="minutes/113#u53seg267"
+				passive="meeting/113#u53seg267"/>
+			<relation xml:id="a168" type="PROV" name="wasRevisionOf" active="document/an#p67l1"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a169" type="PROV" name="wasDerivedFrom" active="document/an#p20n52"
+				passive="minutes/113#u77seg362"/>
+			<relation xml:id="a170" type="PROV" name="wasGeneratedBy" active="document/an#p84l19"
+				passive="creation/an#p84l19"/>
+			<relation xml:id="a171" type="PROV" name="wasGeneratedBy" active="document/an#p150l31"
+				passive="creation/an#p150l31"/>
+			<relation xml:id="a172" type="CRM" name="P70_documents" active="minutes/113#u33seg194"
+				passive="meeting/113#u33seg194"/>
+			<relation xml:id="a173" type="PROV" name="wasInformedBy" active="creation/an#p78l11"
+				passive="meeting/113#u19seg144"/>
+			<relation xml:id="a174" type="PROV" name="used" active="meeting/113#u45seg242"
+				passive="document/soan#p38l15"/>
+			<relation xml:id="a175" type="PROV" name="wasInformedBy" active="creation/an#p48l6"
+				passive="meeting/113#u37seg211"/>
+			<relation xml:id="a176" type="PROV" name="wasInformedBy" active="creation/an#p113l26"
+				passive="meeting/113#u29seg177"/>
+			<relation xml:id="a177" type="CRM" name="P70_documents" active="minutes/113#u67seg330"
+				passive="meeting/113#u67seg330"/>
+			<relation xml:id="a178" type="PROV" name="wasRevisionOf" active="document/an#p48l6"
+				passive="document/soan#p45l14"/>
+			<relation xml:id="a179" type="PROV" name="wasDerivedFrom" active="document/an#p146l29"
+				passive="minutes/113#u45seg242"/>
+			<relation xml:id="a180" type="CRM" name="P70_documents" active="minutes/113#u71seg345"
+				passive="meeting/113#u71seg345"/>
+			<relation xml:id="a181" type="CRM" name="P70_documents" active="minutes/113#u17seg135"
+				passive="meeting/113#u17seg135"/>
+			<relation xml:id="a182" type="PROV" name="wasGeneratedBy" active="document/an#p166l11"
+				passive="creation/an#p166l11"/>
+			<relation xml:id="a183" type="PROV" name="wasGeneratedBy" active="document/an#p132l2"
+				passive="creation/an#p132l2"/>
+			<relation xml:id="a184" type="PROV" name="wasGeneratedBy" active="document/an#p59l18"
+				passive="creation/an#p59l18"/>
+			<relation xml:id="a185" type="PROV" name="used" active="meeting/113#u71seg344"
+				passive="document/soan#p77l4"/>
+			<relation xml:id="a186" type="PROV" name="wasInformedBy" active="creation/an#p166l11"
+				passive="meeting/113#u75seg356"/>
+			<relation xml:id="a187" type="CRM" name="P70_documents" active="minutes/113#u77seg362"
+				passive="meeting/113#u77seg362"/>
+			<relation xml:id="a188" type="PROV" name="used" active="meeting/113#u33seg194"
+				passive="document/soan#p55l22"/>
+			<relation xml:id="a189" type="PROV" name="used" active="meeting/113#u71seg345"
+				passive="document/soan#p58l21"/>
+			<relation xml:id="a190" type="PROV" name="wasDerivedFrom" active="document/an#p37l31"
+				passive="minutes/113#u17seg135"/>
+			<relation xml:id="a191" type="PROV" name="used" active="meeting/113#u59seg292"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a192" type="PROV" name="wasRevisionOf" active="document/an#p48l22"
+				passive="document/soan#p45l29"/>
+			<relation xml:id="a193" type="PROV" name="wasRevisionOf" active="document/an#p37l34"
+				passive="document/soan#p34l33"/>
+			<relation xml:id="a194" type="PROV" name="wasRevisionOf" active="document/an#p47l23"
+				passive="document/soan#p44l31"/>
+			<relation xml:id="a195" type="CRM" name="P70_documents" active="minutes/113#u75seg356"
+				passive="meeting/113#u75seg356"/>
+			<relation xml:id="a196" type="CRM" name="P70_documents" active="minutes/113#u59seg292"
+				passive="meeting/113#u59seg292"/>
+			<relation xml:id="a197" type="PROV" name="used" active="meeting/113#u77seg363"
+				passive="document/soan#p17l25"/>
+			<relation xml:id="a198" type="PROV" name="wasInformedBy" active="creation/an#p9l21"
+				passive="meeting/113#u49seg257"/>
+			<relation xml:id="a199" type="PROV" name="wasInformedBy" active="creation/an#p75l10"
+				passive="meeting/113#u57seg285"/>
+			<relation xml:id="a200" type="PROV" name="wasInformedBy" active="creation/an#p37l34"
+				passive="meeting/113#u11seg112"/>
+			<relation xml:id="a201" type="PROV" name="wasDerivedFrom" active="document/an#p24n66"
+				passive="minutes/113#u59seg296"/>
+			<relation xml:id="a202" type="CRM" name="P70_documents" active="minutes/113#u80seg372"
+				passive="meeting/113#u80seg372"/>
+			<relation xml:id="a203" type="PROV" name="wasInformedBy" active="creation/an#p172n143"
+				passive="meeting/113#u19seg144"/>
+			<relation xml:id="a204" type="PROV" name="wasDerivedFrom" active="document/an#p148l19"
+				passive="minutes/113#u29seg177"/>
+			<relation xml:id="a205" type="PROV" name="used" active="meeting/113#u59seg295"
+				passive="document/soan#p80l12"/>
+			<relation xml:id="a206" type="PROV" name="wasDerivedFrom" active="document/an#p20n52"
+				passive="minutes/113#u77seg363"/>
+			<relation xml:id="a207" type="PROV" name="wasInformedBy" active="creation/an#p151l33"
+				passive="meeting/113#u43seg233"/>
+			<relation xml:id="a208" type="PROV" name="wasGeneratedBy" active="document/an#p89l15"
+				passive="creation/an#p89l15"/>
+			<relation xml:id="a209" type="PROV" name="wasGeneratedBy" active="document/an#p74l11"
+				passive="creation/an#p74l11"/>
+			<relation xml:id="a210" type="CRM" name="P70_documents" active="minutes/113#u65seg322"
+				passive="meeting/113#u65seg322"/>
+			<relation xml:id="a211" type="CRM" name="P70_documents" active="minutes/113#unansegnan"
+				passive="meeting/113#unansegnan"/>
+			<relation xml:id="a212" type="PROV" name="wasDerivedFrom" active="document/an#p17l19"
+				passive="minutes/113#u57seg284"/>
+			<relation xml:id="a213" type="PROV" name="wasDerivedFrom" active="document/an#p92l3"
+				passive="minutes/113#u59seg295"/>
+			<relation xml:id="a214" type="PROV" name="wasDerivedFrom" active="document/an#p65l10"
+				passive="minutes/113#u45seg241"/>
+			<relation xml:id="a215" type="PROV" name="wasRevisionOf" active="document/an#p5l10"
+				passive="document/soan#p57l2"/>
+			<relation xml:id="a216" type="PROV" name="wasRevisionOf" active="document/an#p11l13"
+				passive="document/soan#p7l18"/>
+			<relation xml:id="a217" type="PROV" name="wasRevisionOf" active="document/an#p20n52"
+				passive="document/soan#p17l25, p38l15"/>
+			<relation xml:id="a218" type="CRM" name="P70_documents" active="minutes/113#u71seg344"
+				passive="meeting/113#u71seg344"/>
+			<relation xml:id="a219" type="PROV" name="wasDerivedFrom" active="document/an#p11l13"
+				passive="minutes/113#u57seg283"/>
+			<relation xml:id="a220" type="CRM" name="P70_documents" active="minutes/113#u29seg177"
+				passive="meeting/113#u29seg177"/>
+			<relation xml:id="a221" type="PROV" name="wasRevisionOf" active="document/an#p20n52"
+				passive="document/soan#p17l25"/>
+			<relation xml:id="a222" type="CRM" name="P70_documents" active="minutes/113#u35seg201"
+				passive="meeting/113#u35seg201"/>
+			<relation xml:id="a223" type="PROV" name="wasRevisionOf" active="document/an#p146l29"
+				passive="document/soan#p38l15"/>
+			<relation xml:id="a224" type="PROV" name="wasRevisionOf" active="document/an#p18n46"
+				passive="document/soan#p16l12"/>
+			<relation xml:id="a225" type="PROV" name="wasDerivedFrom" active="document/an#p132l2"
+				passive="minutes/113#u59seg292"/>
+			<relation xml:id="a226" type="PROV" name="wasGeneratedBy" active="document/an#p57l12"
+				passive="creation/an#p57l12"/>
+			<relation xml:id="a227" type="PROV" name="wasRevisionOf" active="document/an#p89l15"
+				passive="document/soan#p55l7"/>
+			<relation xml:id="a228" type="PROV" name="wasInformedBy" active="creation/an#p125l11"
+				passive="meeting/113#u33seg194"/>
+			<relation xml:id="a229" type="PROV" name="wasRevisionOf" active="document/an#p115l25"
+				passive="document/soan#p35l28"/>
+			<relation xml:id="a230" type="PROV" name="wasDerivedFrom" active="document/an#p113l26"
+				passive="minutes/113#u29seg177"/>
+			<relation xml:id="a231" type="PROV" name="wasDerivedFrom" active="document/an#p48l6"
+				passive="minutes/113#u37seg211"/>
+			<relation xml:id="a232" type="PROV" name="wasGeneratedBy" active="document/an#nan"
+				passive="creation/an#nan"/>
+			<relation xml:id="a233" type="PROV" name="wasRevisionOf" active="document/an#p132l2"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a234" type="CRM" name="P70_documents" active="minutes/113#u59seg295"
+				passive="meeting/113#u59seg295"/>
+			<relation xml:id="a235" type="PROV" name="wasDerivedFrom" active="document/an#p151l33"
+				passive="minutes/113#u43seg233"/>
+			<relation xml:id="a236" type="PROV" name="wasRevisionOf" active="document/an#(p126l27)"
+				passive="document/soan#p56l16"/>
+			<relation xml:id="a237" type="PROV" name="used" active="meeting/113#u23seg161"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a238" type="PROV" name="wasInformedBy" active="creation/an#p37l31"
+				passive="meeting/113#u35seg201"/>
+			<relation xml:id="a239" type="PROV" name="wasGeneratedBy" active="document/an#p126l8"
+				passive="creation/an#p126l8"/>
+			<relation xml:id="a240" type="PROV" name="wasGeneratedBy" active="document/an#p148l19"
+				passive="creation/an#p148l19"/>
+			<relation xml:id="a241" type="PROV" name="wasDerivedFrom" active="document/an#nan"
+				passive="minutes/113#unansegnan"/>
+			<relation xml:id="a242" type="PROV" name="used" active="meeting/113#u59seg296"
+				passive="document/soan#p21n62"/>
+			<relation xml:id="a243" type="PROV" name="wasInformedBy" active="creation/an#p47l23"
+				passive="meeting/113#u37seg210"/>
+			<relation xml:id="a244" type="PROV" name="wasInformedBy" active="creation/an#p18l19"
+				passive="meeting/113#u35seg200"/>
+			<relation xml:id="a245" type="PROV" name="wasInformedBy" active="creation/an#p65l10"
+				passive="meeting/113#u45seg241"/>
+			<relation xml:id="a246" type="PROV" name="wasRevisionOf" active="document/an#p57l12"
+				passive="document/soan#p49l33"/>
+			<relation xml:id="a247" type="PROV" name="wasRevisionOf" active="document/an#p166l11"
+				passive="document/soan#p59l19"/>
+			<relation xml:id="a248" type="PROV" name="used" active="meeting/113#u29seg177"
+				passive="document/soan#p35l28"/>
+			<relation xml:id="a249" type="PROV" name="wasDerivedFrom" active="document/an#p64l20"
+				passive="minutes/113#u33seg194"/>
+			<relation xml:id="a250" type="PROV" name="wasGeneratedBy" active="document/an#p17l19"
+				passive="creation/an#p17l19"/>
+			<relation xml:id="a251" type="PROV" name="wasRevisionOf" active="document/an#p92l3"
+				passive="document/soan#p80l12"/>
+			<relation xml:id="a252" type="PROV" name="wasGeneratedBy" active="document/an#p166l22"
+				passive="creation/an#p166l22"/>
+			<relation xml:id="a253" type="PROV" name="wasRevisionOf" active="document/an#p24n66"
+				passive="document/soan#p21n62"/>
+			<relation xml:id="a254" type="PROV" name="wasInformedBy" active="creation/an#p57l12"
+				passive="meeting/113#u67seg330"/>
+			<relation xml:id="a255" type="PROV" name="wasGeneratedBy" active="document/an#p146l29"
+				passive="creation/an#p146l29"/>
+			<relation xml:id="a256" type="PROV" name="used" active="meeting/113#u11seg112"
+				passive="document/soan#p34l33"/>
+			<relation xml:id="a257" type="PROV" name="wasDerivedFrom" active="document/an#p35l3"
+				passive="minutes/113#u17seg135"/>
+			<relation xml:id="a258" type="CRM" name="P70_documents" active="minutes/113#u23seg160"
+				passive="meeting/113#u23seg160"/>
+			<relation xml:id="a259" type="PROV" name="wasGeneratedBy" active="document/an#p11l13"
+				passive="creation/an#p11l13"/>
+			<relation xml:id="a260" type="PROV" name="wasDerivedFrom" active="document/an#p92l3"
+				passive="minutes/113#u80seg372"/>
+			<relation xml:id="a261" type="PROV" name="wasRevisionOf" active="document/an#p75l10"
+				passive="document/soan#p49l33"/>
+			<relation xml:id="a262" type="PROV" name="wasDerivedFrom" active="document/an#p78l11"
+				passive="minutes/113#u19seg144"/>
+			<relation xml:id="a263" type="PROV" name="used" active="meeting/113#u23seg160"
+				passive="document/soan#p57l2"/>
+			<relation xml:id="a264" type="CRM" name="P70_documents" active="minutes/113#u45seg241"
+				passive="meeting/113#u45seg241"/>
+			<relation xml:id="a265" type="PROV" name="wasInformedBy" active="creation/an#p11l13"
+				passive="meeting/113#u57seg283"/>
+			<relation xml:id="a266" type="PROV" name="wasGeneratedBy" active="document/an#p5l10"
+				passive="creation/an#p5l10"/>
+			<relation xml:id="a267" type="PROV" name="wasDerivedFrom" active="document/an#p84l19"
+				passive="minutes/113#u29seg177"/>
+			<relation xml:id="a268" type="PROV" name="wasGeneratedBy" active="document/an#p24n66"
+				passive="creation/an#p24n66"/>
+			<relation xml:id="a269" type="PROV" name="wasInformedBy" active="creation/an#p64l20"
+				passive="meeting/113#u33seg194"/>
+			<relation xml:id="a270" type="PROV" name="wasDerivedFrom" active="document/an#p166l11"
+				passive="minutes/113#u75seg356"/>
+			<relation xml:id="a271" type="CRM" name="P70_documents" active="minutes/113#u11seg112"
+				passive="meeting/113#u11seg112"/>
+			<relation xml:id="a272" type="PROV" name="wasGeneratedBy" active="document/an#p125l11"
+				passive="creation/an#p125l11"/>
+			<relation xml:id="a273" type="PROV" name="wasInformedBy" active="creation/an#p89l15"
+				passive="meeting/113#u17seg136"/>
+			<relation xml:id="a274" type="PROV" name="wasInformedBy" active="creation/an#p18n46"
+				passive="meeting/113#u11seg111"/>
+			<relation xml:id="a275" type="PROV" name="wasInformedBy" active="creation/an#p115l25"
+				passive="meeting/113#u29seg177"/>
+			<relation xml:id="a276" type="PROV" name="wasDerivedFrom" active="document/an#p5l32"
+				passive="minutes/113#u43seg233"/>
+			<relation xml:id="a277" type="CRM" name="P70_documents" active="minutes/113#u35seg200"
+				passive="meeting/113#u35seg200"/>
+			<relation xml:id="a278" type="PROV" name="wasDerivedFrom" active="document/an#p166l22"
+				passive="minutes/113#u75seg356"/>
+			<relation xml:id="a279" type="PROV" name="wasDerivedFrom" active="document/an#p57l12"
+				passive="minutes/113#u67seg330"/>
+			<relation xml:id="a280" type="PROV" name="used" active="meeting/113#u45seg241"
+				passive="document/soan#p56l16"/>
+			<relation xml:id="a281" type="PROV" name="wasDerivedFrom" active="document/an#p85l20"
+				passive="minutes/113#u11seg115"/>
+			<relation xml:id="a282" type="CRM" name="P70_documents" active="minutes/113#u37seg211"
+				passive="meeting/113#u37seg211"/>
 		</listRelation>
 	</standOff>
 	<text>
 		<body>
 			<div xml:id="div1">
-				<p>ヘルプ</p>
-			</div>
-			<div xml:id="div2">
-				<p>ヘルプ</p>
-			</div>
-			<div xml:id="div3">
 				<p>第１１３回　中央環境審議会　総合政策部会</p>
 			</div>
-			<div xml:id="div4">
+			<div xml:id="div2">
 				<p>令和６年１月２９日（月）９：３０～１１：５６</p>
 				<p>ビジョンセンター東京駅前７０５会議室</p>
 				<p>（Ｗｅｂ会議システム併用）</p>
 			</div>
-			<div xml:id="div5">
+			<div xml:id="div3">
 				<p>議　事　次　第</p>
 				<p>１．開会</p>
 				<p>２．議事</p>
@@ -244,9 +854,9 @@
 				<p>参考資料４　　　第六次環境基本計画について（中央環境審議会第31回総会資料の修正版）</p>
 				<p>午前　９時３０分　開会</p>
 			</div>
-			<div type="debate" xml:id="div6">
-				<u xml:id="u1"
-							><note>○<persName><surname>東岡</surname><roleName>計画官</roleName></persName></note><seg
+			<div type="debate" xml:id="div4">
+				<u xml:id="u1" who="#Higashioka_ENV"
+								><note>○<persName><surname>東岡</surname><roleName>計画官</roleName></persName></note><seg
 						xml:id="seg1">それでは、定刻になりましたので、ただいまから中央環境審議会第113回総合政策部会を開催いたします。</seg><seg
 						xml:id="seg2"
 						>まず、委員総数31名のところ、21名の委員にご出席いただいており、定足数の要件を満たし、部会として成立していることをご報告いたします。</seg><seg
@@ -257,8 +867,7 @@
 						xml:id="seg5"
 						>会議資料につきましては、議事次第の下の資料一覧に記載のとおりでございます。また、事前意見として、崎田委員、中村委員、石田委員、竹ケ原委員、井田委員の５名の委員から意見をいただいておりますのでご覧ください。また、ホームページ上は作業が間に合わず４名の委員になっておりますが、作業が完了次第、全ての委員の事前意見を掲載いたします。これらの意見については、資料番号をつけずに配付しております。また、参考資料３につきましては大部となりますので、ホームページへの掲載のみとさせていただいております。もし、不足している資料等がございましたら、事務局までお申しつけください。また、本日の資料は環境省ホームページ総合政策部会のページにアップロードしております。</seg><seg
 						xml:id="seg6">それでは、今後の進行は高村部会長にお願いいたします。</seg></u>
-				<u xml:id="u2">
-					<note>○<persName ref="#YukariTakamura">
+				<u xml:id="u2" who="#YukariTakamura"><note>○<persName>
 							<surname>高村</surname>
 							<roleName>部会長</roleName>
 						</persName>
@@ -271,8 +880,8 @@
 					<seg xml:id="seg10"
 						>それでは、早速ですけれども、第六次環境基本計画（素案）につきまして、事務局から資料１を使ってご説明お願いできればと思います。よろしくお願いします。</seg>
 				</u>
-				<u xml:id="u3"
-							><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
+				<u xml:id="u3" who="Ohkura_ENV"
+								><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
 						xml:id="seg11">おはようございます。事務局の大倉でございます。</seg><seg xml:id="seg12"
 						>ただいま高村部会長からご紹介があったとおり、今日の議論の対象は資料１ということになりますけども、何分100ページぐらいの大部なものになってしまっていますので、概要的なものを最初に５分ほどご説明した後に、本体資料のご説明をしたいと思います。</seg><seg
 						xml:id="seg13"
@@ -398,8 +1007,8 @@
 						xml:id="seg79"
 						>最後に90ページ目でございますけども、環境を軸とした戦略的な国際協調の推進による国益と人類の福祉への貢献というところでございまして、先ほど問題意識のところで申し上げましたけども、分断した世界の中で、環境を軸として国際協調を発展させるという思想の下で書いてございます。人類の福祉への貢献という環境基本法の思想も体現しようというところで、大きく四つくらい分かれていますけども、91ページに国際的なルール作りへの貢献、93ページ、環境分野における途上国支援というところで、94ページ目、これは新しい概念、カテゴリーになりますけども、（３）経済安全保障への対応、（４）我が国の優れた取組の海外展開という構成になってございます。</seg><seg
 						xml:id="seg80">すみません、ちょっと時間が超過してしまいましたけども、駆け足ですみませんが、以上でございます。</seg></u>
-				<u xml:id="u4"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u4" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg81">ご説明ありがとうございました。</seg><seg xml:id="seg82"
 						>それでは、ただいま事務局からご説明いただきました第六次環境基本計画（素案）について、ご意見をいただきたいと思っております。</seg><seg
 						xml:id="seg83"
@@ -409,8 +1018,8 @@
 						xml:id="seg85"
 						>それでは、ご発言をご希望の委員、ありがとうございます。札を上げていただいておりますので、まず会場からご発言をお願いしようと思っております。</seg><seg
 						xml:id="seg86">もし、差し支えありませんでしたら、井上委員、よろしいでしょうか、ありがとうございます。</seg></u>
-				<u xml:id="u5"><note>○<persName ref="#KumieInoue"
-								><surname>井上</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u5" who="#KumieInoue"
+								><note>○<persName><surname>井上</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg87">連合の井上です。よろしくお願いいたします。</seg><seg xml:id="seg88"
 						>環境基本計画案の作成のご尽力、敬意を表したいと思います。これまで、前任の石上からずっと連合が申し上げてきました公正な移行の考え方が随所に反映されておりまして、記載いただき本当にありがとうございます。これまで申し上げてきたこと及び、記載された内容を補足する形で発言をさせていただきます。</seg><seg
 						xml:id="seg89"
@@ -422,12 +1031,12 @@
 						xml:id="seg92"
 						>それとちょっと記述で気になったところが、41ページの５行目なのですが、「気候変動施策を始め、環境政策における女性の参加をより一層」とあるのですが、政策なので、参加よりは参画ではないかというふうに思いましたので、少しご検討いただければと思います。</seg><seg
 						xml:id="seg93">以上です。</seg></u>
-				<u xml:id="u6"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u6" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg94">井上委員、どうもありがとうございます。</seg><seg xml:id="seg95"
 						>それでは、続きまして崎田委員、そして武内委員とお願いしたいと思います。よろしくお願いします。</seg></u>
-				<u xml:id="u7"><note>○<persName ref="#YukoSakita"
-								><surname>崎田</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u7" who="#YukoSakita"
+								><note>○<persName><surname>崎田</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg96"
 						>ありがとうございます。全体を読ませていただいて、本当にしっかりと重層的に書き込んでいただいているというふうに感じます。特に私は気候変動と生物多様性の削減、そして汚染という、この三つの地球の危機を踏まえて、どういうふうに取り組んでいくかという辺りがしっかりと書き込まれているということが大事だというふうに思っています。</seg><seg
 						xml:id="seg97"
@@ -436,12 +1045,12 @@
 						>なお、このような課題を解決していくために地域で取り組むというのが、私も大事にしているところなのですが、そういう意味で、地域でのことも踏まえて、パートナーシップという視点が大変重要で、今後書き込んでいくと但し書きされていますが、昔から言われているパートナーシップですが、やはり政府の省庁がうまく連携してくださることで、自治体の多様な分野もしっかりとつながれていくという、もう当たり前のところなのですが、分野横断的な取り組みが非常に増えてきておりますので、もう一回しっかりと書き込んでいただいてもいいのではないかというふうな感じがいたします。</seg><seg
 						xml:id="seg99"
 						>なお、最後の１点なのですが、私はそういう地域社会の流れをつくるために、リスクコミュニケーションとかコミュニケーションはすごく大事なところだと思いますので、その辺の書き込みにかなり気を遣って読んでいました。一つ気になったのは、福島の未来志向の取組のところなど、今、復興に向けた様々な動きが進んできているんですけれども、実は私は事故の直後から今も、多くのコミュニケーションの現場のお手伝いとかに積極的に入っており、昨日も遅くまで浜通りにいまして、朝戻ってきたんですけれども。地域の中で、最初の頃は国の責任でしっかり頑張って取り組んでくださいという厳しい声が多かったんですが、今はそこを踏まえて、自分たちが一緒になって、どういうふうに復興に関わるかと、地域の方の思いが変化する時代に来ているというふうな感じがしています。今、国の様々な、中間貯蔵施設の除去土壌の対応とかいろんなことがありますが、政策・施策の実現に向けて、市民を巻き込み、一緒になってどう取り組んでいくかという、そういう国の責任の徹底から市民の参画、市民の責任と一緒になって取り組むというふうにチェンジする時代なのではないかと考えていくのも重要ではないかと感じました。よろしくお願いいたします。</seg></u>
-				<u xml:id="u8"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u8" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg100">ありがとうございます。</seg><seg xml:id="seg101"
 						>それでは、武内委員、その後、豊岡委員、お願いいたします。</seg></u>
-				<u xml:id="u9"><note>○<persName ref="#KazuhikoTakeuchi"
-								><surname>武内</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u9" who="#KazuhikoTakeuchi"
+								><note>○<persName><surname>武内</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg102">幾つか申し上げたいと思います。</seg><seg xml:id="seg103"
 						>まず前提認識として、世界の大きな動きと日本の動きというのが、軌を一にして進んでいるという状況認識というのは、もうちょっとあってもいいのではないか。特に温暖化の場合は、世界全体でネット・ゼロを2050年までに目指すというのと、日本において同じような目標を出すということが、お互いにシンクロナイズしているというふうなところを、もう少し強調したほうがいいのではないか。これ、今までの環境政策というと、国ごとに目標があって、それをどう達成するかというようなことが中心だったと思うのですが、世界の目標の中で日本の目標を考えていくという、こういうスタンスが極めて特徴的ではないかと思います。</seg><seg
 						xml:id="seg104"
@@ -449,13 +1058,13 @@
 						xml:id="seg105"
 						>それから三つ目ですけど地上資源の話、これはとても重要なのですけど、地上自然の重要性というのは、もともとから考えると、我々社会は地上資源で暮らしていたわけですよね。バイオマスに依存した社会だとか、そういうふうなものに対する新しい回帰というふうなものが、地方の活性化、地方経済とどうやってうまくつながるのかというような観点も非常に重要ではないかと思うんですね。そういう意味で、海外に流出していたお金が国内の地方に戻ってくるというふうな、そういう観点ももうちょっと強調して書いていただくといいのかなと思いました。</seg><seg
 						xml:id="seg106">以上です。</seg></u>
-				<u xml:id="u10"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u10" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg107">ありがとうございます。</seg><seg xml:id="seg108"
 						>それでは、豊岡委員、その後、石田委員にお願いいたします。</seg><seg xml:id="seg109"
 					>豊岡委員、お願いいたします。</seg></u>
-				<u xml:id="u11"><note>○<persName ref="#KazumiToyooka"
-								><surname>豊岡</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u11" who="#KazumiToyooka"
+								><note>○<persName><surname>豊岡</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg110">ありがとうございます。６点あるので、急いで参ります。</seg><seg xml:id="seg111"
 						>16ページの12行目ですね。「「環境対策はコストである」という認識が根強く残っていたが」というところについて、注釈も書いていただいております。トレードオフのみならずということなのですけども、それだけではなくて、既に事例として太陽光と蓄電池で電力会社より安い電力で提供しているというような日本の事例も出てきておりまして、このように再エネは高くて不安定という現状認識をやめていくというような注釈を入れてはいかがかなと思っております。</seg><seg
 						xml:id="seg112"
@@ -467,12 +1076,12 @@
 						xml:id="seg115"
 						>続いて５番目、54ページ、公共施設の建築物を活用した再生可能エネルギーの積極導入ですけれども、積極的な推進ではもう既に遅くて、これを横断的に入れるのは難しいことから義務化が必要であると思っています。それと42ページと73ページにもあります中間支援の在り方でございます。特に73ページ目の37行目、既存の中間支援団体を活用してみたいな文言がございますけれども、既存の中間支援では物足りなくて、事業化や経済的視点を加えたマネジメントが全然行われていないことが問題になっています。これが行われるような中間支援というものをぜひ地域にしていただけるように望みます。</seg><seg
 						xml:id="seg116">以上です。</seg></u>
-				<u xml:id="u12"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u12" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg117">ありがとうございます。</seg><seg xml:id="seg118"
 						>それでは石田委員、その後、井田委員、お願いいたします。</seg></u>
-				<u xml:id="u13"><note>○<persName ref="#KenichiIshida"
-								><surname>石田</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u13" who="#KenichiIshida"
+								><note>○<persName><surname>石田</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg119">ありがとうございます。既に書面で意見を出しておりますので、簡単にご説明させていただきます。</seg><seg
 						xml:id="seg120"
 						>はじめに、これまで危機感が足りないという発言をさせていただいたことに対して、様々な工夫をしていただいてありがとうございました。ただ、国民にとっては、分かりやすさが重要だと思います。文章だけの表現だと分かりにくいので、これを国民に発表する際には、分かりやすい図表等を入れて説明していただければ幸いです。</seg><seg
@@ -483,12 +1092,12 @@
 						xml:id="seg123"
 						>次に、19ページ。科学的な知見を用いてスピード感を持ってというお願いをしてきましたが、これもきちんと書いていただいてありがとうございます。JCLPとしてはずっと訴えてきた点なのですが、このまま行くと、日本がバリューチェーンから外されかねないという懸念があります。企業の競争力が失われないようにしっかり対策を進めていただきたいと思います。</seg><seg
 						xml:id="seg124">以上です。ありがとうございました。</seg></u>
-				<u xml:id="u14"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u14" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg125">ありがとうございました。</seg><seg xml:id="seg126"
 						>それでは、井田委員、お願いいたします。</seg></u>
-				<u xml:id="u15"><note>○<persName ref="#TetsujiIda"
-								><surname>井田</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u15" who="#TetsujiIda"
+								><note>○<persName><surname>井田</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg127"
 						>ありがとうございます。ぎりぎりになったのですが、意見書を出してあるので、ちょっとページ数がずれているのですけど、それをご参照いただければと思うのですが。</seg><seg
 						xml:id="seg128"
@@ -504,23 +1113,23 @@
 						Awayを「移行」と訳しているというのが見えるということもあって、ぜひ入れていただきたいというふうに思います。</seg><seg
 						xml:id="seg131"
 						>それで、もう一つ気になるのは、相変わらず省エネの部分が今日になっても出てこないということなのですけども、ここはおかしなことだと思うんですよね。我々はずっと事務局が作っていただいた紙を基に議論して、ヒアリングもやったものが、なぜこういう形になるのかと。閣議決定なので、各省庁と協議するというのは当たり前なのですけども、省エネは経産省のエネ庁の省エネ課だけがやっている話でもないし、なぜ１省庁の１課が、さして正当性のないと言うとちょっと言い過ぎかもしれないですが、意見を言って、これが黄色になって、いまだに出てこないということになるというやり方は、私はちょっと受け入れ難いものだと思います。どうせだったらここへ出てきていただいて、我々みんなで議論するということもあってもいいと思うのですけども、今後のこともあるので、ちょっとそれは考え直すべきでないかなというふうに思います。</seg></u>
-				<u xml:id="u16"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u16" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg132">それでは河口委員、その後、髙橋委員にお願いしたいと思います。よろしくお願いします。</seg></u>
-				<u xml:id="u17"><note>○<persName ref="#MarikoKawaguchi"
-								><surname>河口</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u17" who="#MarikoKawaguchi"
+								><note>○<persName><surname>河口</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg133">ありがとうございます。</seg><seg xml:id="seg134"
 						>今回、事前に打合せもしまして、いろいろと事情も伺う中で、改めてこれを読みますと、各委員の先生方の意見を本当に丁寧に入れ込んだがために、これをぱっと見た人には訳が分からないものになってしまっているなというところがあって、もう本当にご苦労かけたなと思いつつも、論文を作成するという立場からすると、読んでいただく立場からすると、これを一回もう少し本当はスリムダウンしたほうがいいのであろうなということを思っております。事務局のこれまでの我々の意見を真摯に取り入れようというご努力は感謝いたします。いろいろと問題があるというお話もありましたけれども。</seg><seg
 						xml:id="seg135"
 						>なので、もうあんまり追加的なことは言わないと決めたのですけれども、ものの言い方として、例えば32ページから環境政策の展開とか、目指すべき持続可能な社会の姿とか、それから34ページに新たな成長の実現、この言い方は変えろと前から言っていたのですけど。ここで縷々書いてあることなのですが、もはや経済活動というのは環境制約の前提でないと成り立たないということを丁寧にいろいろと言っているのですけど、明確にもう地球環境の制約を考えない経済というのはないという表現をちょっと強めに、キーワードとしてタイトル的なところに入れていただくだけで、随分印象が違うのではないかなということと、分量は増やさなくていいのかなと。</seg><seg
 						xml:id="seg136"
 						>それから、あと55ページなのですけれども、消費者の意識行動の変容というようなお話があって、ここもいろいろ書いてあるのですが、もうちょっと分かりやすい表現としては、日本だと生協がやっている産直みたいな活動があって、それは単に消費者が好きな物だけ買えばいいやというのではなくて、生産者とつながって不作の場合のリスクなんかも取りつつ一緒にサポートするという、ある意味、今から考える生産と消費をつなげる理想的な姿というのを日本は戦後やっているという実績があるので、こういった消費者行動みたいなことも重要で、ネット・ゼロとかデコ活とか新しいものばっかりだと、また新しいのが来てしまったという話になるので、日本は前からやっていたよねというところで、少しこういうところをクローズアップして伝えていただくと、消費者への変容ということが分かるかなと思いました。以上です。</seg></u>
-				<u xml:id="u18"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u18" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg137">ありがとうございます。</seg><seg xml:id="seg138"
 						>それでは、会場でご参加の髙橋清委員、お願いいたします。その後、竹ケ原委員お願いいたします。</seg></u>
-				<u xml:id="u19"><note>○<persName ref="#KatsuhiroTakahashi"
-								><surname>髙橋</surname><forename>（清）</forename><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u19" who="#KatsuhiroTakahashi"
+								><note>○<persName><surname>髙橋</surname><forename>（清）</forename><roleName>委員</roleName></persName></note><seg
 						xml:id="seg139">ありがとうございます。</seg><seg xml:id="seg140"
 						>今、河口委員がおっしゃったとおり、今までの私たちの意見をしっかり取り入れていただいたがために、大変膨大な資料になったのかなというのはありますが、やはりこの文章は分かりやすさと、メッセージ性が重要と思っています。分かりやすさは、平たんな文章で、かつ、ロジックがしっかりしているかどうかというところだと思いますので、その辺りをもう一度見直していただければと思います。また、あとはやっぱり数字、これはアップデートされて後ほどというお話がありましたけれども、それをしっかり入れていただければなと思っています。</seg><seg
 						xml:id="seg141"
@@ -532,14 +1141,14 @@
 						xml:id="seg144"
 						>最後になりますけど、これは少し細かい点ですが、私の専門の交通に関して、ページの61ページ辺りから国土のストック、価値向上、それに交通都市、コンパクトアンドネットワーク等があります。この中の交通手段の中に自転車というのが全く抜けていているように思います。現在パリでは、自転車で大改造することを実行しており、これはもしかすると、19世紀のオスマンが本当にパリを改造したときと同じぐらいの重要なポイントかなというふうに思うぐらいです。やはり日本もそういう意味で、他省庁との連携になりますけども、ぜひ「自転車」を認識して頂き、文言として入れていただければと思います。</seg><seg
 						xml:id="seg145">以上です。</seg></u>
-				<u xml:id="u20"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u20" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg146">ありがとうございます。</seg><seg xml:id="seg147"
 						>それでは、竹ケ原委員、お願いいたします。</seg><seg xml:id="seg148"
 						>すみません、申し訳ございません。この後、会場でご参加の委員の発言からオンラインでご参加の委員のほうに発言をお願いしてまいります。船越委員が早くご退席と伺っておりますので、まず船越委員、その後、堅達委員にご発言をいただいていこうというふうに思っております。</seg><seg
 						xml:id="seg149">申し訳ありません、竹ケ原委員お願いいたします。</seg></u>
-				<u xml:id="u21"><note>○<persName ref="#KeisukeTakegahara"
-								><surname>竹ケ原</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u21" who="#KeisukeTakegahara"
+								><note>○<persName><surname>竹ケ原</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg150"
 						>ありがとうございます。事前の意見で、先ほど来出ている読みやすさについては構成の点をコメントしていますので、これについては、後ほどご議論いただければありがたいなと思っています。</seg><seg
 						xml:id="seg151"
@@ -548,13 +1157,13 @@
 						xml:id="seg152"
 						>もう１点がイノベーションのところで、これ非常に充実した記載になっているのですけど、かがみのところで、「本質的ニーズを踏まえた」という書き方がなされていたと思うのですが、結構読んでいくと、ＡＩとか、何とかドリブンとか、シーズとか最先端のイノベーションのような話が沢山記載されており、「本質的なニーズを踏まえた」というニュアンスがあんまりくみ取れなかった印象があります。シーズ中心の記載になっている印象があるという意味です。先ほども議論になっていたトランジションもそうなのですけど、今やれること、省エネもそうだと思います。しっかりやって、かつイノベーションにつないでいくというのが大事だと思いますし、釈迦に説法ですが、破壊的イノベーションのような話になってくると、イノベーションのジレンマの話というのは、むしろ高度化するニーズを追いかけすぎた結果、足元に穴が空いて、そこに後発が入ってきて抜かれてしまうという意味でのイノベーションもあるわけですから、もう少し既存の技術の応用であるとか、その点についても書いていただけると、より深みが出るかなという気がしました。</seg><seg
 						xml:id="seg153">以上です。</seg></u>
-				<u xml:id="u22"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u22" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg154">ありがとうございました。</seg><seg xml:id="seg155"
 						>それでは、オンラインでご出席の委員にご発言をお願いしたいと思います。</seg><seg xml:id="seg156"
 						>それでは、まず最初に船越委員、いかがでしょうか。</seg></u>
-				<u xml:id="u23"><note>○<persName ref="#HirofumiHunakoshi"
-								><surname>船越</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u23" who="#HirofumiHunakoshi"
+								><note>○<persName><surname>船越</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg157">よろしいですか。ありがとうございます。</seg><seg xml:id="seg158"
 						>全体的には、皆様おっしゃられているように、いろんな意見がある中で大変苦労されて、非常に書き込まれた内容になっていると思います。その中で、個別にちょっと３点コメントをさせていただきたいと思います。</seg><seg
 						xml:id="seg159"
@@ -566,31 +1175,31 @@
 						xml:id="seg162"
 						>３点目、（２）の投資を支えるグリーンな経済システムの構築ということについて、丹念に記載をしていただいていると思います。ややESG金融等ファイナンスの話が少し重視される傾向があると思っておりますけども、まずは製品単位での環境負荷の見える化とその低減、それを進めていくに当たっての公共調達を中心とする市場・需要の創出といったところが、まず最初に来るべきというふうに思っておりますので、そういった記述になっているということについて、非常に工夫がされているなと感じております。</seg><seg
 						xml:id="seg163">以上です。</seg></u>
-				<u xml:id="u24"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u24" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg164">ありがとうございます。</seg><seg xml:id="seg165"
 						>それでは、堅達委員、ご発言お願いできますでしょうか。</seg></u>
-				<u xml:id="u25"><note>○<persName ref="#KyokoGendatsu"
-								><surname>堅達</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u25" who="#KyokoGendatsu"
+								><note>○<persName><surname>堅達</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg166">聞こえますでしょうか。</seg></u>
-				<u xml:id="u26"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u26" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg167">はい、聞こえております。</seg></u>
-				<u xml:id="u27"><note>○<persName ref="#KyokoGendatsu"
-								><surname>堅達</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u27" who="#KyokoGendatsu"
+								><note>○<persName><surname>堅達</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg168"
 						>全般的には、このスピードとスケールとか、私も何度も言ってきたことも盛り込んでいただいて書いていただいていると思うのですけれども、世の中がさらにそれを上回るスピードで気候変動が進んでいて、実際に去年、WMOの発表で、単年度で見れば1.45度上昇しているという中で、この新しい環境基本計画が出されるということを考えますと、やはり1.5度に整合する計画なのか、そして井田委員もおっしゃられたように、化石燃料からの脱却というものを本当にこの10年で加速するということが、ちゃんと国民にストレートに伝わるのかというところを、まずはしっかり書き込んでいただきたいなと思うのが１点と、もう１点は、やはりこの１月１日の能登の地震です。私、福井に帰省していて揺れも感じましたし、母の実家が能登の七尾なもので人的被害はなかったものの被害は出たのですけれども、これは本当によく、自然との共生とか地域循環共生圏とか今申していますが、もしかするとこの自然というのはそんな優しいものではなくて、こういう荒ぶる、４メートルも地盤が隆起するなどという、我々が思いもしなかったような現象を見せつけるすさまじい力をやっぱり持っているということに対して、私たちはもっと謙虚にならなければならないというふうに痛感した地震でございます。正直能登には、動いてはいませんでしたが志賀原発がございましたし、珠洲にも計画があったのが本当なくてよかったという話になっているのですけれども、今回寸断されてしまって、何か事故があったら本当に避難もできないということが露呈したわけです。</seg><seg
 						xml:id="seg169"
 						>こうしたことも冷静に考えますと、この基本計画でお伝えしているウェルビーイングとか、安心安全な、あるいは私たちの環境権、生存権というものを本気で考えていくと、やっぱり私たちはある程度覚悟を持って再エネの転換を加速していくということが、しっかりと国民の目標として伝わっていかないと、この地震大国、地震の巣の上で暮らしている私たちとしてはできないなということを改めて思った次第です。</seg><seg
 						xml:id="seg170"
 						>そのことは、レジリエンスを高めたり、分散型社会を構築したりしていくという意味でも重要なポイントだと思いますので、この文章を練ったのは12月なので、こんな能登の地震が起きるとは夢にも思わなかったと思いますけれども、まだしばらくお時間ありますので、ぜひこの能登の自然が私たちに教えてくれていることも取り入れて、よりよい環境基本計画をつくっていっていただければと思います。よろしくお願いいたします。</seg></u>
-				<u xml:id="u28"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u28" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg171">ありがとうございます。</seg><seg xml:id="seg172"
 						>それでは、大変お待たせいたしました。オンラインでご出席の先生方にご発言をお願いしたいと思います。最初に馬奈木委員、お願いいたします。その後、山戸委員、小屋委員とお願いしたいと思います。</seg><seg
 						xml:id="seg173">それでは馬奈木委員、お願いいたします。</seg></u>
-				<u xml:id="u29"><note>○<persName ref="#SyunsukeManagi"
-								><surname>馬奈木</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u29" who="#SyunsukeManagi"
+								><note>○<persName><surname>馬奈木</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg174"
 						>ありがとうございます。私は33、4ページ程度のGDPでなくストック社会に、どのような処方箋をというところに対するコメントです。</seg><seg
 						xml:id="seg175"
@@ -599,12 +1208,12 @@
 						xml:id="seg177"
 						>この一人当たりのGDPで見るからこそ、日本は成長率が低くなっているのですね。しかし、一般的に言われていることですけど、雇用者の一人当たりでのGDPの伸び率で見ると、日本はアメリカよりも上です。つまり日本の良い面の状況、これはインフラが適切にできていること、低い失業率、犯罪率、比較的悪くはない市民意識とも言われていますが、そういう中で、働いている状況においては、日本はそんなに本当は悪くないんですね。今の定義での成長率は、日本はアメリカ以上です。じゃあ、今後どうすればいいかという、先ほどのページでの処方箋に関することですけど、今回多めに出ている自然資本を活用することでよりよくしていこうというロジックを、先ほどのインフラ及び雇用に結びつけて書けばいいのかなとは思っています。インフラというのは、自然資本を活用することによるインフラ、その場所というのは地方創生の話がありますので、より地域循環共生圏を加味した上での地方と都心部との連携です。失業率は既に低いですけども、さらに雇用を促すという意味では、自然資本絡みというのは労働集約的です。通常のインフラというのは、どちらかというと、データセンターを含めて、AIも進んでいますので、雇用集約的にはそんなにならないのですね。そういう意味で、自然資本地域活用型で雇用を促し、自然資本ベースのインフラをすることで地域も発展してというストーリーにしたほうがよりいいですし、日本が駄目という話でなく、増やしていくことがいいと思います。</seg><seg
 						xml:id="seg178">これが今日申し上げたいところであります。以上です。ありがとうございます。</seg></u>
-				<u xml:id="u30"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u30" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg179">ありがとうございます。</seg><seg xml:id="seg180"
 						>それでは、続きまして山戸委員、お願いいたします。</seg></u>
-				<u xml:id="u31"><note>○<persName ref="#MasakoYamato"
-								><surname>山戸</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u31" who="#MasakoYamato"
+								><note>○<persName><surname>山戸</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg181">はい、お願いします。</seg><seg xml:id="seg182"
 						>私のほうからは、まず初めに、気候変動の危機的状況をファクトベースでまとめていただけたと思います。企業としても危機意識を持って取組を行っていますが、本日の原案を通じて、国民の皆様にも地域の企業の製品をすごく適切に評価いただけるようになればありがたいと考えております。</seg><seg
 						xml:id="seg183"
@@ -613,13 +1222,13 @@
 						>また、規制、基準の国際調和につきまして、ネット・ゼロ、循環経済、ネイチャーポジティブなど、同時実現において、欧米などでも各種の規制や情報開示ルールも進んでおります。国際的に事業を行う日本企業として、こうした規制、ルールの調和やトレーサビリティの確保に向けた各国・地域の政府のご支援がぜひとも必要であります。今回の案では、分かりやすく適切な開示の在り方を国内において広く周知いただくと認識しておりますが、こうした考えで各国・地域のルールづくりにおいても国際調和に貢献いただければありがたいと思います。</seg><seg
 						xml:id="seg185"
 						>最後に、科学的な充実についてですけれども、原案にもありますとおり、最良の科学的知見に基づく政策決定が重要であると思っております。原案では、環境研究、モニタリング、トレーサビリティ技術、人材育成、データベース構築、オープンデータ化などの科学的知見を充実させる、様々な施策をお示しいただきました。こうして得られた大量の科学的知見を日本での政策に生かすとともに、ネット・ゼロ、循環経済、ネイチャーポジティブに関する国際的な議論において積極的に発信いただくこともお願いしたいと存じます。以上でございます。</seg></u>
-				<u xml:id="u32"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u32" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg186">ありがとうございます。</seg><seg xml:id="seg187"
 						>それでは、続きまして小屋委員、お願いいたします。小屋委員の後に諸富委員、奥委員、三好委員とご発言をお願いいたします。</seg><seg
 						xml:id="seg188">それでは小屋委員、お願いいたします。</seg></u>
-				<u xml:id="u33"><note>○<persName ref="#KaworiKoya"
-								><surname>小屋</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u33" who="#KaworiKoya"
+								><note>○<persName><surname>小屋</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg189"
 						>今回示された内容は、目指すべき方向性や施策が網羅されており、クロージングに向けて整理されてきたと認識しています。</seg><seg
 						xml:id="seg190"
@@ -632,12 +1241,12 @@
 						xml:id="seg194"
 						>また、本計画の中では「あらゆる主体に対する」という表現がありますが、教育対象がやや狭い印象を受けます。小・中学校も含めて、より若い世代の教育にもフォーカスして、CO２削減に資する環境教育の実効性の強化と民間企業の連携についての記載の検討をお願いします。</seg><seg
 						xml:id="seg195">以上です。</seg></u>
-				<u xml:id="u34"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u34" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg196">小屋委員、どうもありがとうございました。</seg><seg xml:id="seg197"
 						>それでは、続きまして、諸富委員、お願いいたします。</seg></u>
-				<u xml:id="u35"><note>○<persName ref="ToruMorotomi"
-								><surname>諸富</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u35" who="#ToruMorotomi"
+								><note>○<persName><surname>諸富</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg198">ありがとうございます。</seg><seg xml:id="seg199"
 						>私は、今回文章を読ませていただいて、環境の視点からの成長戦略と言ってもいい意義を持つものではないかなというふうに思いました。環境と経済の関係について、断片的ながらしっかりした筋の通った構図を描けていて、その点では、環境と経済に関する哲学的、認識論的な基礎を据える、そういう意義を持つ文章ではないかなというふうに高く評価をしております。</seg><seg
 						xml:id="seg200"
@@ -647,14 +1256,14 @@
 						xml:id="seg202"
 						>以上、私自身は、今回の記述は高く評価し、若干強めに書いてもいいのではないかなということでコメントとさせていただきます。</seg><seg
 						xml:id="seg203">以上でございます。</seg></u>
-				<u xml:id="u36"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u36" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg204">諸富委員、どうもありがとうございました。</seg><seg xml:id="seg205"
 						>それでは、続きまして、奥委員にご発言いただきます。</seg><seg xml:id="seg206"
 						>これまで、委員の先生方のご協力で順調に進行しております。この後もぜひ３分以内のご発言をお願いしたいと思います。あわせて、第１回目でご発言を残された、あるいはほかの先生方の発言を受けてご発言の希望がありましたら、ぜひセカンドラウンドをしたいと思っておりますので、ご準備いただければと思っております。</seg><seg
 						xml:id="seg207">それでは奥委員、よろしくお願いいたします。</seg></u>
-				<u xml:id="u37"><note>○<persName ref="#MamiOku"
-								><surname>奥</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u37" who="#MamiOku"
+								><note>○<persName><surname>奥</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg208">分かりました。</seg><seg xml:id="seg209"
 						>第１部の第３章、環境政策の原則・手法の中の１ですね。環境政策における原則等というところで、前回、私のほうからは、ここはまずは環境政策に係る原則を、現在、各法律諸法の中に散らばっているものを環境基本計画の中で全て網羅的にカバーすべきではないか、押さえるべきではないかということを申し上げました。それを受けて事務局のほうでも工夫をしてくださって、44ページですね。１の（２）のところに「未然防止原則」というのを加えていただいて、そして、（ア）で未然防止原則を一つ、項として起こしていただいたというところ、これは対応していただいて感謝申し上げます。異論のないところです。</seg><seg
 						xml:id="seg210"
@@ -664,13 +1273,13 @@
 						xml:id="seg212"
 						>最後に、環境効率性というのが最初にあるのですけれども、これ、環境効率性というのは指標であって原則ではないというふうに前回申し上げました。ぜひこの考え方や原則の話を前に出していただいて、これらを踏まえて環境政策を実現していくことで環境効率性の向上につながっていくのだ、デカップリングにつながっていくのだというふうに、環境効率性で最後はここの説を締めくくっていただくと、ストーリーとしても非常によいものになるかなというふうに思いました。</seg><seg
 						xml:id="seg213">以上です。</seg></u>
-				<u xml:id="u38"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u38" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg214">ありがとうございます。</seg><seg xml:id="seg215"
 						>それでは、続きまして三好委員、ご発言をお願いいたします。三好委員の後ですけれども、田中里沙委員、鈴木委員、大塚委員とお願いをしたいと思います。</seg><seg
 						xml:id="seg216">それでは、三好委員、よろしくお願いします。</seg></u>
-				<u xml:id="u39"><note>○<persName ref="#TokomoMiyoshi"
-								><surname>三好</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u39" who="#TokomoMiyoshi"
+								><note>○<persName><surname>三好</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg217">ありがとうございます。</seg><seg xml:id="seg218"
 						>まとめていただきましてありがとうございます。今までのいろんな議論が反映されているなという印象を受けました。感謝いたします。</seg><seg
 						xml:id="seg219"
@@ -678,12 +1287,12 @@
 						xml:id="seg220"
 						>ネイチャーポジティブという言葉がたくさん出てきて、その中に意味を持たせているのだとは思うのですけれども、すみません、私も見え消し版を見ていますが、例えば66ページのところで、河川で「再生」とか「創出」というのを付け加えていただいていて、私は全体的にもう少し再生していくのだ、例えば省エネとか、今止めるのだということだけではなくて、環境をよりよくしていくのだ、ポジティブにしていくのだというメッセージをもう少し強めたほうがいいだろうというふうに思いますので、ほかのところ、例えばみどりの食料システム戦略とか、環境と調和した食料システムとありますが、これはやはり調和し、再生していくというふうに書いたほうがよりメッセージが伝わるし、危機感も伝わるかなというふうに思います。</seg><seg
 						xml:id="seg221">以上です。ありがとうございます。</seg></u>
-				<u xml:id="u40"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u40" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg222">ありがとうございます。</seg><seg xml:id="seg223"
 						>それでは田中里沙委員、お願いできますでしょうか。</seg></u>
-				<u xml:id="u41"><note>○<persName ref="#RisaTanaka"
-								><surname>田中</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u41" who="#RisaTanaka"
+								><note>○<persName><surname>田中</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg224">田中里沙です。発言の機会をありがとうございます。</seg><seg xml:id="seg225"
 						>第六次環境計画の概要の４ページに六つの戦略が描かれていますけれども、これが真に横断的に動いて、特にリーダーシップを取る方々の間で有機的に動くようにという思いで、二つの切り口で意見をさせていただければと思います。</seg><seg
 						xml:id="seg226"
@@ -693,25 +1302,25 @@
 						xml:id="seg228"
 						>もう１点は、パートナーシップの視点から、ここはこれから記述が整理されるところですけれども、多くの企業や自治体が環境への取組に力を入れて、2030年目標を掲げてコミットメント、明確化もしてありますし、バリューチェーン全体、グループ全体、環境と人権もしっかりやっていこうとしていく中で、同時に、これが今正しいのかとか、目標に向けて動いているけれども、社会からどう評価されるのかというふうな不安もあるようですので、今日お話のあったグローバルの視点からの状況や、自分たちの立ち位置や見ている方向がはっきりするようなディレクションが出せればよいなと期待をしております。</seg><seg
 						xml:id="seg229">以上、よろしくお願いいたします。</seg></u>
-				<u xml:id="u42"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u42" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg230">ありがとうございます。</seg><seg xml:id="seg231"
 						>それでは、続きまして鈴木委員、お願いしたいと思います。鈴木委員の後に大塚委員、稲城市長の髙橋委員、それから白石委員とお願いいたします。男澤委員も手を挙げていただきました。まだ発言をされていない、手を挙げていらっしゃらない委員は、この機会に手を挙げていただければと思います。ありがとうございます。</seg><seg
 						xml:id="seg232">それでは、鈴木委員、よろしくお願いいたします。</seg></u>
-				<u xml:id="u43"><note>○<persName ref="#HarumiSuzuki"
-								><surname>鈴木</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u43" who="#HarumiSuzuki"
+								><note>○<persName><surname>鈴木</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg233">よろしくお願いいたします。</seg><seg xml:id="seg234"
 						>30ページに、東日本の大震災に関する汚染、放射能のことが書いてあるのですけれども、ここは本当に東日本の方たちがまだまだ大変ご苦労なさっているということは承知しておりますが、ただ、東日本大震災のことで福島県の方だけが苦労しているということではなく、震災の関係では林業関係、特にキノコ業界ですけれども、ここは原材料である木が皆、セシウムという放射能の関係で駄目になってしまって、原材料であるおがが手に入らないというような状況が続いています。そんな中で廃業をされる方、また生産が大変になっているという生産者の方がたくさんいるということで、やはりもう少し放射能とか汚染というところの書き込みがあったらいいかなと思っております。</seg><seg
 						xml:id="seg235"
 						>それで、あと化学物質による生態系のリスクの最小化とか、汚染の防止、また森林の整備・保全、森林・林業・木材産業によるグリーン成長というふうなことが書かれています。このことは大変いいことだと思うのですけれども、このことと生産者が今、セシウムの放射能の関係で抱えている課題というのとはまた別なことかなと思いますので、そういった生産者の方の、放射能で大変だというようなことも皆さんに承知していただけるとありがたいかなって思っております。</seg><seg
 						xml:id="seg236">以上です。</seg></u>
-				<u xml:id="u44"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u44" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg237">ありがとうございます。</seg><seg xml:id="seg238"
 						>それでは、続きまして大塚委員、お願いいたします。大塚委員の後に、稲城市長の髙橋委員、白石委員、男澤委員、髙村典子委員と続きます。</seg><seg
 						xml:id="seg239">大塚委員、よろしくお願いいたします。</seg></u>
-				<u xml:id="u45"><note>○<persName ref="#TadashiOtsuka"
-								><surname>大塚</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u45" who="#TadashiOtsuka"
+								><note>○<persName><surname>大塚</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg240"
 						>最初に全体として、明確な軸は今の状況において出していただいたということになると思いました。様々な先生方の意見を入れながら、明確な軸を出していただいたと思いまして、大変結構なことだと、全体的には思っております。</seg><seg
 						xml:id="seg241"
@@ -725,50 +1334,50 @@
 						xml:id="seg245"
 						>あと最後に、奥委員がおっしゃった環境に関する基本原則についての活用の点ですが、私はあんまり気にしていませんけれども、具体化というのがあるかもしれないとは、ちょっと思っています。ちょっと言葉のニュアンスの問題があるので、学門的には具体化のほうが正しいと私も思いますが、どうするかは事務局のほうで、さらに慎重にご検討いただけるとありがたいと思います。</seg><seg
 						xml:id="seg246">以上です。</seg></u>
-				<u xml:id="u46"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u46" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg247">ありがとうございます。</seg><seg xml:id="seg248"
 						>それでは、髙橋勝浩市長、お願いできますでしょうか。</seg></u>
-				<u xml:id="u47"><note>○<persName ref="#KatsuhiroTakahashi"
-								><surname>髙橋</surname><forename>（勝）</forename><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u47" who="#KatsuhiroTakahashi"
+								><note>○<persName><surname>髙橋</surname><forename>（勝）</forename><roleName>委員</roleName></persName></note><seg
 						xml:id="seg249">こんにちは。稲城市長の髙橋でございます。</seg><seg xml:id="seg250"
 						>今回の第２部第２章では重点戦略ごとの環境政策の展開というのを取り上げてもらいました。私ども自治体については、地域循環共生圏の構築が最重要課題だと思っておりますが、その中でもやはりエネルギー分野での施策が最重要だと考えております。</seg><seg
 						xml:id="seg251"
 						>再生可能エネルギーの最大限の導入拡大や公共施設等の建築物を活用した再生可能エネルギーの積極導入などについて言及していただいているのですが、私どもは今、PPA事業に取り組んでおりまして、基本的には公共施設の屋根に全て太陽光パネルを設置しようと考えておりますが、実際にはこれを系統電力に接続するための手続で、現時点では12か月ぐらいを要しております。仮に自家消費だけで接続をしないとしても、その申請に３か月かかるということで、再生可能エネルギーの設備を設置しても、その生産設備をタイムリーに十分活用することができない現状があります。ぜひとも設備の導入だけを推進するのではなく、こうした送電網、あるいは系統電力への接続を含めた手続についても積極的な支援を進めるような形もお願いしたいと思います。</seg><seg
 						xml:id="seg252">以上です。</seg></u>
-				<u xml:id="u48"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u48" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg253">ありがとうございます。</seg><seg xml:id="seg254"
 						>それでは、続きまして、白石委員、お願いいたします。</seg></u>
-				<u xml:id="u49"><note>○<persName ref="#HiroakiShiraishi"
-								><surname>白石</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u49" who="#HiroakiShiraishi"
+								><note>○<persName><surname>白石</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg255">白石です。ご発言の機会をどうもありがとうございます。</seg><seg xml:id="seg256"
 						>私からは１点だけなのですが、化学物質に関してなのですが。第１部第１章、引き続き課題が残る環境汚染、化学物質の管理とか、第２章の重点戦略ごとの環境政策の展開で化学物質の関係のことを掲げられておるのですけども、崎田委員がおっしゃったように、全体として問題意識の緊迫度が薄いのではないかというふうな印象も私も受けておりまして、その点に関してでございます。</seg><seg
 						xml:id="seg257"
 						>７ページを見ますと、本文の７ページですが、現代文明の地球的限界と文明の転換、社会変革に向けた2030年の重要性というところで、脚注12番なのですけども、その他の例ではということで、種の絶滅、窒素・リンの循環、あるいは気候変動も書かれていますけど、土地利用変化、新規化学物質、この新規化学物質の言い方、日本の新規化学物質とは違うと思いますけども、新規化学物質の不確実性の領域を超えて高リスクの領域にあると脚注に落とされているのですけども、これを本文のほうに記述できないかという提案でございます。</seg><seg
 						xml:id="seg258">以上です。</seg></u>
-				<u xml:id="u50"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u50" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg259">ありがとうございます。</seg><seg xml:id="seg260"
 						>それでは、続きまして、男澤委員、お願いできますでしょうか。</seg></u>
-				<u xml:id="u51"><note>○<persName ref="#ErikoOtokosawa"
-								><surname>男澤</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u51" who="#ErikoOtokosawa"
+								><note>○<persName><surname>男澤</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg261">ありがとうございます。</seg><seg xml:id="seg262"
 						>この取りまとめ、ありがとうございます。これまでの議論を網羅的に反映していただいているように思います。</seg><seg
 						xml:id="seg263"
 						>私からは１点、コメントをさせていただきます。環境保全や良好な環境の創出に果たす民間企業の役割を今後、サステナビリティ情報を通じて、企業が長期的な視点で成長していくことを示すことがますます求められていくものと考えております。こうした中での開示の仕組み、ファイナンス、バリューチェーン全体での環境負荷の低減等に関して記述いただいたことを感謝申し上げます。こうして民間企業のことが、情報開示等を通じて企業価値や持続可能性の向上につながるよう、国際的なルール決定・・・省庁としてのリーダーシップの発揮とともに、引き続き必要な施策のピックお願いできればと思います。こうした動きの中、情報開示の質を担保する保障等の動きも国際的に加速しておりますので、こうした点も引き続き、政策の深度を含めてご検討いただければと思います。</seg><seg
 						xml:id="seg264">私からは以上となります。</seg></u>
-				<u xml:id="u52"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u52" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg265">ありがとうございます。</seg><seg xml:id="seg266"
 						>それでは、髙村典子委員、お願いいたします。</seg></u>
-				<u xml:id="u53"><note>○<persName ref="#NorikoTakamura"
-								><surname>髙村</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u53" who="#NorikoTakamura"
+								><note>○<persName><surname>髙村</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg267">ありがとうございます。</seg><seg xml:id="seg268"
 						>私のほうは、劣化が非常に著しい淡水域の生物種の保全についての記載のお願いでございます。現在の自然資本の向上のところ、62ページ、63ページで、広域的生態系ネットワークの形成と、あと河川環境・水環境の保全のところで書き込んでいただいておりますが、淡水の生物種の分布特性、すなわち本来分布が局所的であり、それが潰されて、絶滅危惧種が多いという現状を考えますと、「湖沼、湿地等」と書かれていますが、ため池や小規模な湿地、さらに開発だけでなく放棄されたところの保全・再生なども必要に思いますので、その辺をちょっと工夫していただいて、「里地里山など身近な自然環境を含めた」と書いてあるので、それの枕言葉に入れるとか、少し工夫をしていただいて、書いていただければありがたいと思います。</seg><seg
 						xml:id="seg269">以上です。よろしくお願いします。</seg></u>
-				<u xml:id="u54"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u54" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg270">ありがとうございます。今、ご発言ご希望の委員には一巡ご発言をいただきました。</seg><seg
 						xml:id="seg271"
 						>私も発言させていただこうと思っておりますが、重複しない形でと思っておりますけれども、一つは、これは河口委員ほか、既に委員からご指摘があった点ですが、全体としてこれまでの意見をうまく反映をしてくださっているという評価をいただいていると思います。そういう意味で、事務局に頑張っていただいたということかと思うのですが。他方で、どうしても本当に伝えたいメッセージをうまく伝えるためにどうするかということをご示唆いただいたと思います。</seg><seg
@@ -782,18 +1391,18 @@
 						>最後ですけれども、全体として国際関係のところの記載を少し充実させていただくといいなと思っています。典型的なのは、国際関係も大きな変化の中で環境政策があるということもそうなのですが、もうこれまで、ここでは釈迦に説法ですけれども、国際的に起こる様々な活動や排出というのが、日本の国民、日本の環境に影響を与えている。そういう意味では、国際協調の下で環境政策を取っていくということが日本の国益というふうには、文章に書いてくださっているのですけど、日本の国民のウェルビーイングの向上にとって極めて重要だということはやはり、環境基本法の根本にもあると思いますけど、そこの記載が、関係性が後半のところでは必ずしも明確ではない、記載されていないように思いましたので、検討いただければという点です。</seg><seg
 						xml:id="seg276"
 						>それぞれの委員から、時間を守っていただきましたので、もう一回ご発言いただく機会あるのですけど、この時点で事務局からご回答はございますか。</seg></u>
-				<u xml:id="u55"
-							><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
+				<u xml:id="u55" who="#Ohkura_ENV"
+								><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
 						xml:id="seg277">まとめてで大丈夫です。</seg></u>
-				<u xml:id="u56"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u56" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg278"
 						>では、まとめてお答えしようと思います。確かに具体的なご質問という形ではなかったというふうに思いますので。</seg><seg
 						xml:id="seg279"
 						>それでは、今、各委員からご発言をいただいたものを踏まえて、改めてご発言ご希望の委員、落としていた論点、あるいは改めて追加したいコメントがありましたらお願いしようと思います。</seg><seg
 						xml:id="seg280">それでは、最初に札を上げていただきました河口委員、その後、井田委員にお願いしたいと思います。</seg></u>
-				<u xml:id="u57"><note>○<persName ref="#MarikoKawaguchi"
-								><surname>河口</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u57" who="#MarikoKawaguchi"
+								><note>○<persName><surname>河口</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg281">２回目の発言の機会をありがとうございます。</seg><seg xml:id="seg282"
 						>各委員のご意見を伺って、ちょっと触発された部分もあるのですけれども、私、タイトルをもう少しぴっとしたというか、衝撃的な、それが省庁間の調整で言えないのかもしれないのですけれども、もうそういうことを言っている世界的な状況ではないので、ちょっとみんなが、ばっと、ぴっとなるような表現をぜひ選んでいただきたいなと。</seg><seg
 						xml:id="seg283"
@@ -802,12 +1411,12 @@
 						>それから、15ページに環境の主流化ということもありますが、これも先ほど申し上げたのですけど、環境が主流化するのではなくて、経済のところに環境制約がわあっと押しかけてきていて、もうそんなわがままは許されないのだよねというトーンに、そういうことを書いてあるのですけど、あんまり気がつかない人には気がつかないということなので、この制約を考えない経済活動はないんだくらいのトーンにしていただければいいのかなと思います。</seg><seg
 						xml:id="seg285"
 						>それから、教育に関しては49ページ以降でこれから書くというお話なのですけれども、ぜひお願いしたいのは、これも先ほどちょっと申し上げましたけれども、生協の産直みたいな、昔から日本にあった表現と。私自身がWWFと一緒に、日本文化と生物多様性ということで、俳句とか茶道だとか、神道と生物多様性ということで、一般の市民向けの講座なんかをやると、それとこれが結びついているんだみたいな、すごくびっくりされますけど、やはり非常に親しみを持って思われるということがありまして、日本文化に根差す、日本の文化というのは生物多様性の上に成り立っていると言っても過言ではないので、そういった身近な生活習慣とか、日本文化の中にもこういうのが眠っているのだというものをちりばめていただかないと、「デコ活」とか片仮名用語ばかりで来ると、やはりなかなか頭に入らなくなると思うので、特に教育のところは、そういった元から日本にあった伝統をどう大事にするかということ、それから堅達委員がおっしゃった自然に対する畏れみたいなこととか感謝という気持ちは日本人はずっと持ってきたと思うんですけれども、そういったメッセージもぜひ教育のところで、自然を使ってやるのだ、ではなくて、生かしていただいて、使わせていただいているという、そういったトーンのメッセージもぜひ入れていただければなと思います。ありがとうございました。</seg></u>
-				<u xml:id="u58"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u58" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg286">ありがとうございます。</seg><seg xml:id="seg287"
 						>井田委員、それではお願いいたします。その後、豊岡委員、崎田委員とお願いします。</seg></u>
-				<u xml:id="u59"><note>○<persName ref="#TetsujiIda"
-								><surname>井田</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u59" who="#TetsujiIda"
+								><note>○<persName><surname>井田</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg288">ありがとうございます。</seg><seg xml:id="seg289"
 						>この会議が始まる最初に申し上げたのですけども、前回の第五次環境基本計画のときではきちんと受け止められなかったウエディングケーキであるとか、カーボンバジェットであるとか、プラネタリー・バウンダリーとか、地球の制約の中でも経済社会を動かしていくしかないんだ、それは環境が軸というふうに書いていただいたんです。私は基盤としたほうがよかったと思うのですけど、それがTransformative
 						Changeだというのはあちこちに見られて、これは一つ売りになるかなと思ったんですが。</seg><seg xml:id="seg290"
@@ -827,13 +1436,13 @@
 						xml:id="seg296"
 						>すみません、時間を踏み越えて恐縮なのですけど、あと21ページにあった経済フォーラムの長期リスクなのですけれども、これ、10年後のリスクのほうは四つが環境リスクなもので、資料を見ると緑が四つになっているので、これ、四つとするほうが正しいのではないかなというふうに思いました。</seg><seg
 						xml:id="seg297">以上、細かいことですが、ちょっと時間超過して恐縮です。</seg></u>
-				<u xml:id="u60"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u60" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg298">ありがとうございます。</seg><seg xml:id="seg299"
 						>それでは、豊岡委員、その後、崎田委員、お願いいたします。崎田委員の後に、もしご発言のご希望がなければですけれども、オンラインでご出席の委員にご発言をいただきます。まだご発言でない亀山委員に、先にご発言をいただこうと思います。</seg><seg
 						xml:id="seg300">それでは豊岡委員、お願いいたします。</seg></u>
-				<u xml:id="u61"><note>○<persName ref="#KazumiToyooka"
-								><surname>豊岡</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u61" who="#KazumiToyooka"
+								><note>○<persName><surname>豊岡</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg301">ありがとうございます。</seg><seg xml:id="seg302"
 						>すごく頑張って書いていただいて、取り入れていただいて、感謝申し上げます。</seg><seg xml:id="seg303"
 						>そして、それなのに、この何か嫌な気分は何だろうかと振り返っていたのですけれども、私、現場で委員をしておりますと、現場とあまりにも感覚の違いというか、乖離が大き過ぎて、これが本当に書いても実現できるのだろうかという、すごく嫌な気分になります。</seg><seg
@@ -842,12 +1451,12 @@
 						xml:id="seg305"
 						>そして私は、本当は環境こそが一番上位概念にあるべきだというふうに思っておりますので、これが現場になかなか浸透しないというのは絶望しております。なので、もう少し厳しく現場を義務化する。先ほども申し上げましたけれども、ルールをもう少し厳しく明確に縛っていかないと、意識改革などでは現場は変わりません。なので、ここをしっかり私どもの正念場と捉えて、ちゃんと見出しで分かりやすく、諦めがつく、そしてやらなければならないということが分かるような表現にしていただくと本当にありがたいです。</seg><seg
 						xml:id="seg306">以上です。</seg></u>
-				<u xml:id="u62"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u62" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg307">ありがとうございます。</seg><seg xml:id="seg308"
 						>それでは、崎田委員、お願いいたします。</seg></u>
-				<u xml:id="u63"><note>○<persName ref="#YukoSakita"
-								><surname>崎田</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u63" who="#YukoSakita"
+								><note>○<persName><surname>崎田</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg309">ありがとうございます。</seg><seg xml:id="seg310"
 						>先ほどの発言で、汚染のところは部会長も受け止めていただきまして、ありがとうございます。それで、実はパートナーシップについて発言をしたときに、非常にはしょって、省庁の取組、しっかりと連携してみたいな話だけに集約して発言をしたのですけれども、もう少し詳しく説明させてください。</seg><seg
 						xml:id="seg311"
@@ -858,13 +1467,13 @@
 						>よく食品ロスなどに関しては、こういういろんなSDGsモデルの連携を動かすときの話に出てきますけれども、食品ロスなども、食料の生産者とか流通、消費、教育とか、福祉とか全部つながっている話ですし、人材育成とか教育のところなども、学校教育、企業の取組、自治体、そして次世代とかそういう世代間を取り入れるとか、いろんな側面を持っています。</seg><seg
 						xml:id="seg314"
 						>あともう一点、ここのところちょっと動いていないなと思うのが、気候変動対策の森林整備です。実は経済界のカーボンニュートラル計画の第三者評価委員を長年やっていて、いろんな業界の方の取り組み見を伺うのですが、やっぱり国内パルプ、国内森林をしっかりと活用するというところが、なかなか企業だけの取組だと道路整備とか難しいんですよ、みたいな10年前と同じようなお答えが返ってくるのですね。やっぱりそういうところをしっかりと、環境省もしっかり旗を振って、つないでいただければありがたいというふうに思います。よろしくお願いします。</seg></u>
-				<u xml:id="u64"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u64" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg315">ありがとうございます。</seg><seg xml:id="seg316"
 						>それでは、オンラインでご出席の委員に移ってまいります。</seg><seg xml:id="seg317"
 						>亀山委員、お願いできますでしょうか。その後、馬奈木、三好委員、大塚委員とお願いいたします。</seg></u>
-				<u xml:id="u65"><note>○<persName ref="#YasukoKameyama"
-								><surname>亀山</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u65" who="#YasukoKameyama"
+								><note>○<persName><surname>亀山</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg318">亀山です。ありがとうございます。</seg><seg xml:id="seg319"
 						>これまでの委員の皆様方のご発言に賛同しておりまして、これまで発言を求めませんでしたが、時間があるということで、１点だけ発言させていただきたいと思います。</seg><seg
 						xml:id="seg320"
@@ -874,12 +1483,12 @@
 						xml:id="seg322"
 						>若い人たちにどういうふうに情報を受け取っているのかと聞きますと、最近の若い人は新聞も読まない、テレビも見ないということで、今までとは違った情報の伝え方ということが非常に重要だと思っております。今のドラフトの55ページ、56ページ辺りに、より記載があるというふうに思っております。情報を伝える言葉を検索すると非常に多くの回数出てきます。情報という言葉はたくさん出てくるのですけれども、情報開示であったり、情報非開示であったり、だけど、その情報をどのような形で誰に伝えるのかということを書き込んでいただけるとありがたいというふうに思いました。研究者、あるいは大学の教員としても、今までの情報の出し方だけではない新しい伝え方ということを模索するような努力ができるようなプラットホームが次の計画に書き込んであるといいというふうに思いました。</seg><seg
 						xml:id="seg323">以上でございます。</seg></u>
-				<u xml:id="u66"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u66" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg324">ありがとうございます。</seg><seg xml:id="seg325"
 						>それでは、オンラインでご出席の馬奈木委員、お願いいたします。</seg></u>
-				<u xml:id="u67"><note>○<persName ref="#SyunsukeManagi"
-								><surname>馬奈木</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u67" who="#SyunsukeManagi"
+								><note>○<persName><surname>馬奈木</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg326">ありがとうございます。</seg><seg xml:id="seg327"
 						>私、経済界との連携が、すごく実質的に進めることが大事だと思います。</seg><seg xml:id="seg328"
 						>まず１点目、58ページですね。ここでESG、グリーンファイナンスの点で、TCFD、TNFDを述べられています。もし可能でしたら、もう一単語、不平等と社会問題、社会関連の財務開示、タスクフォースであるTISFDをコンマで入れていただけますといいかなと思います。それは先ほど申し上げた地域での活用を促進するために、結果的に今回のような環境に関する政策というのは不平等と社会関係にもつながるので、環境のみならず、他の地方創生上もいいかと思うからであります。</seg><seg
@@ -888,12 +1497,12 @@
 						xml:id="seg330"
 						>最後に49ページ、企業とのパートナーシップに関してであります。よくパートナーシップの議論で、特定の地域と企業との連携を補助金などで支援されていると思います。ぜひ一般性を持って成功するモデル構築を推進していただきたいです。たまたま大きな資本の企業が補助を出すとか、たまたま森林が多いとか、そういう事例ですと他の地域の参考にはあまりなりません。そうでなく、他の地域にも参照になって、その仕組みづくりが役立つようなところをメッセージ性で出していただけたらと思います。</seg><seg
 						xml:id="seg331">以上です。ありがとうございます。</seg></u>
-				<u xml:id="u68"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u68" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg332">ありがとうございました。</seg><seg xml:id="seg333"
 						>それでは、続きまして、三好委員、お願いいたします。</seg></u>
-				<u xml:id="u69"><note>○<persName ref="#TokomoMiyoshi"
-								><surname>三好</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u69" who="#TokomoMiyoshi"
+								><note>○<persName><surname>三好</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg334">２回目ですけれども、ありがとうございます。</seg><seg xml:id="seg335"
 						>私から１点付け加えさせていただきたいなという点は、新しい成長ということで、環境に寄り添った、よりよくしていく商品やプロダクツ、サービスなどが付加価値を持っていくという表現をされていると思いますけれども、ちょっと付加価値という言葉が私はまだ引っかかるところがありまして、少し説明をさせていただきたいなと思います。</seg><seg
 						xml:id="seg336"
@@ -903,62 +1512,62 @@
 						xml:id="seg338"
 						>ちょっと消費者という言葉は私も好きではないのですけれども、生活者、それからビジネス、地方、そういったところがエンパワーされるような消費や商品に変わっていく、サービスに変わっていく、ということがウェルビーイングにつながっていくのかなと思いますので、その点も付け加えさせていただきます。</seg><seg
 						xml:id="seg339">以上です。ありがとうございます。</seg></u>
-				<u xml:id="u70"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u70" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg340">ありがとうございます。</seg><seg xml:id="seg341"
 						>それでは、続きまして、大塚委員、お願いいたします。大塚委員の後、堅達委員、諸富委員とご発言をお願いいたします。</seg><seg
 						xml:id="seg342">それでは、大塚委員、よろしくお願いします。</seg></u>
-				<u xml:id="u71"><note>○<persName ref="#TadashiOtsuka"
-								><surname>大塚</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u71" who="#TadashiOtsuka"
+								><note>○<persName><surname>大塚</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg343">どうもありがとうございます。</seg><seg xml:id="seg344"
 						>２点申し上げますが、化学物質については、高村部会長もおっしゃってくださったように、より充実した記述にしていただければ大変ありがたいと思っています。今回そういう意見がたくさん出てきていて、私はとてもうれしく思っていますが、77ページのところで、ウェルビーイングとの関係で、化学物質は３行目のところに出てきてはいるのですけども、それはそれとして、より充実した記載をしていただきたいと思いますし、前の意見として申し上げたことがありますが、公害対策は環境政策としての原点なので、もしそういう言葉も入れていただけたら大変ありがたいなというふうには思っております。</seg><seg
 						xml:id="seg345"
 						>それから関連して、58ページの25行目のところで、ESGとの関係で気候変動等とがございますが、化学物質に関しても実はESGは世界的にも始まっているので、日本もそれをどうしようかということを今、環境省でお考えになっているとは思いますが、この様々な分野のところには化学物質も入るということは、メンションはしておきたいと思います。ここの表現を化学物質までここで入れる状態に今あるかどうかというのはちょっとご検討いただければと思いますが、化学物質も実はここに入るということも申し上げておきたいと思います。</seg><seg
 						xml:id="seg346"
 						>あと環境の原則の話ですけど、井田委員がおっしゃったのは、則りというのが結構いいかなというふうに思いました。学問的にも則りであればいいので、あんまりニュアンスが弱くなるのはどうかなと思いますけど、則りであれば学問的にもいいかなと思います。以上でございます。</seg></u>
-				<u xml:id="u72"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u72" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg347">ありがとうございます。</seg><seg xml:id="seg348"
 						>それでは、堅達委員、お願いいたします。</seg></u>
-				<u xml:id="u73"><note>○<persName ref="#KyokoGendatsu"
-								><surname>堅達</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u73" who="#KyokoGendatsu"
+								><note>○<persName><surname>堅達</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg349"
 						>追加で申し上げたいのは、この環境基本計画の理念はどこへ向かうべきかというのは、実はもう世界が共通の課題の中で向かう方向は分かっていると思うのですけど、いかにそのスピードとスケールを上げるために実装していくか、ちゃんとボトルネックを排除しながら前へ進んでいけるかというところが大事なのではないかなと感じております。そうしますと、なかなか再生可能エネルギーを導入していくということを一つ取っても、国民の間には、いや、あれはなかなか、土砂崩れが起きてとか、風景が台なしになってとか、やっぱりいまだにネガティブに捉える方もたくさんいる中で、むしろ陸上風力にしてもしっかりゾーニングするとか、ソーラーシェアリングとかもいろんな規制を緻密にいいように進行していくとか、送電網とか様々なこともそうですし、このルールメイキングを加速していくという視点、ここがとても重要なのではないかなと思います。</seg><seg
 						xml:id="seg350"
 						>元を正せば、カーボンプライシングという重要なルールメイキングも加速していく必要があるわけですけれども、とにかく理念だけ言っている時代ではなくて、実装するために何が必要なのかというところをぜひ少し強調して書いていただくと、切迫して、今すぐ行動に移さなければならないというところが、国民の皆様にもより一層響くようになるのではないかと思いました。よろしくお願いいたします。</seg></u>
-				<u xml:id="u74"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u74" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg351">ありがとうございます。</seg><seg xml:id="seg352"
 						>それでは、諸富委員にご発言いただこうと思いますけど、会場、オンライン通して、ほかにご発言をご希望の委員がいらっしゃいましたら手を挙げて、あるいは札を立ててお知らせください。</seg><seg
 						xml:id="seg353">それでは、諸富委員、よろしくお願いいたします。</seg></u>
-				<u xml:id="u75"><note>○<persName ref="ToruMorotomi"
-								><surname>諸富</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u75" who="#ToruMorotomi"
+								><note>○<persName><surname>諸富</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg354">ありがとうございます。</seg><seg xml:id="seg355"
 						>54ページのネイチャーポジティブの実現に資する投資の拡大と書かれているのですけれども、ここは大事だなというふうに思います。まさに自然資本というコンセプトと、それへの投資という考え方が適用されるところなんですけれども、投資といいますと財源をどうするのかなということがあります。</seg><seg
 						xml:id="seg356"
 						>以下のページでは、どうやって民間資金を動かすかということに関しての記述がありまして、企業に行動変容を促す。情報開示も求められていますので、ネイチャーポジティブに向けて、企業が自然資本に対して投資を促していくような仕組みづくり。あと直接金融や間接金融への動員についてもしっかり書かれてありまして、こういった民間資金は非常に大事でありますが、同時に、59ページに、税制全体のグリーン化の中で、ネイチャーポジティブの視点からも環境関連税制等による検討ということで、これまでは気候変動を念頭に税源問題としてのカーボンプライシングを議論してきたわけですけれども、やはりネイチャーポジティブ、そして、自然資本を保全していくということに関するプライオリティーをこれから上げていかないといけないのではないか。それにはやはり投資が必要ということでいくと、やはり税制のグリーン化の中で公的にもどう資金調達をしていくか。GXでも炭素賦課金を入れつつ、20兆円、公的に支援して、15兆円の民間投資を呼び込むという立てつけになっているように、自然資本でもやはり何らかの形の公的支援、その財源を考える中で民間資金もやはり動かしていくというような構想をつくっていく必要があるのなのかなというふうに思いました。</seg><seg
 						xml:id="seg357">以上でございます。</seg></u>
-				<u xml:id="u76"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u76" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg358">ありがとうございます。</seg><seg xml:id="seg359"
 						>それでは、今ご発言のご希望、奥委員が手を挙げていただいておりますけれども、ほかによろしいでしょうか。もしよろしければ、奥委員で最後のご発言としたいと思います。</seg><seg
 						xml:id="seg360">それでは奥委員、よろしくお願いします。</seg></u>
-				<u xml:id="u77"><note>○<persName ref="#MamiOku"
-								><surname>奥</surname><roleName>委員</roleName></persName></note><seg
+				<u xml:id="u77" who="#MamiOku"
+								><note>○<persName><surname>奥</surname><roleName>委員</roleName></persName></note><seg
 						xml:id="seg361">ありがとうございます。</seg><seg xml:id="seg362"
 						>人権・環境デュー・デリジェンスについてなんですが、こちらを明記していただいて大変よいと思います。この「人権・環境デュー・デリジェンス」という言葉が、見え消し版で17ページと、それから38ページに出てきているのですが、いわゆる「人権・環境デュー・デリジェンス」というふうに書いてありまして、その意味するところについての説明文が、17ページにも38ページにもないんですね。ぜひここ、脚注なのか、もう少し中身が分かるように説明文を入れていただいたほうがいいかなと思います。</seg><seg
 						xml:id="seg363"
 						>63ページのほうに行きますと、持続可能なバリューチェーンの構築の中に、「ビジネスと人権に関する取組の一環として、従来の人権・環境デュー・デリジェンス」ということと、それに加えて「環境問題に対するリスクマネジメントである環境デュー・デリジェンス」という、ここまで行くと、ちょっと説明文的なものがようやく出てくるのですが、その前の２か所において、最初のところですね。17ページのところでちゃんと説明をしておいていただければというふうに思います。</seg><seg
 						xml:id="seg364">以上です。</seg></u>
-				<u xml:id="u78"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u78" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg365">ありがとうございます。</seg><seg xml:id="seg366"
 						>それでは、ご発言のご希望がもしなければ、事務局のほうにお返ししたいと思います。</seg></u>
-				<u xml:id="u79"
-							><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
+				<u xml:id="u79" who="#Ohkura_ENV"
+								><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
 						xml:id="seg367">いいですか。</seg></u>
-				<u xml:id="u80"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u80" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg368">申し訳ない。私のほうから。</seg><seg xml:id="seg369"
 						>今いただいた点で、２点ほど、私、申し上げておきたい。ちょっと細かなところはまた事務局に申し上げようと思うんですが。</seg><seg
 						xml:id="seg370"
@@ -969,8 +1578,8 @@
 						>それと、あと細かなところで恐縮、決して細かくないのですが。80ページ目のところの、先ほどどなたか、井田委員でしたでしょうか。ご指摘になったところです。ちょっとこれ、言葉の整合性をつけたほうがいいのではないかと思っているところがありまして、これ、環境上も重要な窒素の文脈、80ページのところです。特に水素キャリア等の用途でのアンモニアの利用についてのところですけど、ここはG7の広島サミットの成果文書の中で、実際に一酸化二窒素、あるいは窒素酸化物についての排出について回避するという表現ぶりになっていたと思います。この技術の活用ではなくて、実際にそういうことを目標として、条件として定めてやっぱり水素、アンモニアを開発していきましょうという合意になっていたと思いますので、G7の広島サミットの成果文書を、できれば整合させたほうがいいのではないかなというふうに思っております。すみません、文言の話で恐縮でしたけれども。</seg><seg
 						xml:id="seg373"
 					>それでは、もしほかにご発言ご希望がなければ、環境省のほうから、事務局のほうからお答えいただこうと思います。</seg></u>
-				<u xml:id="u81"
-							><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
+				<u xml:id="u81" who="#Ohkura_ENV"
+								><note>○<persName><surname>大倉</surname><roleName>環境影響評価課長</roleName></persName></note><seg
 						xml:id="seg374">すみません、ご熱心な議論を本当にありがとうございました。</seg><seg xml:id="seg375"
 						>全てのご意見にお答えすることはできませんが、具体的な表現ぶりについてのご指摘のところについては、後でちょっと議事録なんかもしっかり確認しつつ、なるべく反映するように、ちょっと関係省庁とも相談が要りますけども、やっていきたいなと思ってございます。</seg><seg
 						xml:id="seg376"
@@ -987,36 +1596,37 @@
 						>あと見出しについても、ちょっとどこまでできるか、まさに政府部内で調整かもしれませんが、全体としてもうちょっと分かりやすさの観点を追求していくというのをやっていきたいと思いますし、冒頭に申し上げたとおり、個別の指摘についてはちょっと真摯に対応すべくしていきたいと思ってございます。</seg><seg
 						xml:id="seg382"
 						>次回は残りの部分を併せてご議論いただきますけども、引き続きよろしくお願いします。今日はありがとうございました。</seg></u>
-				<u xml:id="u82"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u82" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg383">ありがとうございました。</seg><seg xml:id="seg384"
 						>事務局はかなり苦労して、いただいた意見をできるだけ反映をしようとされていると思うのですけれども、次回議論いたします後半も含めた全体の議論を委員の先生方、またよろしくお願いできればというふうに思います。</seg><seg
 						xml:id="seg385"
 						>全体通して、ご発言のご希望はございますでしょうか。会場、あるいはオンラインでご出席の委員から、もしご発言のご希望がありましたら、お知らせいただければと思います。よろしいでしょうか。</seg><seg
 						xml:id="seg386">（なし）</seg></u>
-				<u xml:id="u83"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u83" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg387">それでは、本日予定していた議題は審議を尽くしましたので、これで本日の審議は終了としたいと思います。</seg><seg
 						xml:id="seg388"
 						>もう既に事務局から表明いただきましたけれども、本日いただいたご意見を踏まえて、もう一度検討していただいて、次回の部会で計画の素案全体について、ご議論を継続したいと思います。</seg><seg
 						xml:id="seg389">それでは、最後に事務局から連絡事項をお願いできればと思います。</seg></u>
-				<u xml:id="u84"><seg xml:id="seg390"
-						>○東岡計画官皆様、本日は長時間にわたりましてご審議ご参加いただきまして、誠にありがとうございました。</seg><seg
+				<u xml:id="u84" who="#Higashioka_ENV"
+								><note>○<persName><surname>東岡</surname><roleName>計画官</roleName></persName></note><seg
+						xml:id="seg390">皆様、本日は長時間にわたりましてご審議ご参加いただきまして、誠にありがとうございました。</seg><seg
 						xml:id="seg391"
 						>本日の議事録につきましては、事務局で取りまとめを行いまして、委員の皆様にご確認いただきました後、環境省ホームページに掲載させていただきます。</seg><seg
 						xml:id="seg392"
 						>また、次回の総合政策部会につきましては、第114回ということで２月26日でございます。詳細につきましては、決まり次第、またご連絡させていただきます。どうぞよろしくお願いいたします。</seg></u>
-				<u xml:id="u85"><note>○<persName ref="#YukariTakamura"
-								><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
+				<u xml:id="u85" who="#YukariTakamura"
+								><note>○<persName><surname>高村</surname><roleName>部会長</roleName></persName></note><seg
 						xml:id="seg393">ありがとうございます。</seg><seg xml:id="seg394"
 						>大変インテンシブに、先生方のお時間をいただいて議論しておりますけれども、引き続きお願いしたいと思います。</seg><seg
 						xml:id="seg395"
 						>それでは、以上をもちまして、本日、第113回の総合政策部会は閉会としたいと思います。どうもありがとうございました。</seg></u>
 			</div>
-			<div xml:id="div7">
+			<div xml:id="div5">
 				<p>午前１１時５６分閉会</p>
 			</div>
-			<div xml:id="div8">
+			<div xml:id="div6">
 				<p>環境省（法人番号1000012110001） 〒100-8975 東京都千代田区霞が関1-2-2 中央合同庁舎5号館　 TEL
 					03-3581-3351(代表)</p>
 			</div>
