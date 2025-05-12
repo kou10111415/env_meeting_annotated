@@ -99,8 +99,8 @@
 					><orgName>日本労働組合総連合会</orgName><roleName>副事務局長</roleName></affiliation>
 			</person>
 			<person xml:id="TadashiOtsuka">
-				<persName><surname>大塚</surname><forename>直</forename></persName>
-				<affiliation n="1"><orgName>早稲田大学法学部</orgName><roleName>教授</roleName></affiliation>
+				<persName ref="https://researchmap.jp/read0129856 https://www.waseda.jp/folaw/law/about/faculty/tadashi-otsuka/"><surname>大塚</surname><forename>直</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.waseda.jp/folaw/law/">早稲田大学法学部</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="YasukoKameyama">
 				<persName><surname>亀山</surname><forename>康子</forename></persName>
