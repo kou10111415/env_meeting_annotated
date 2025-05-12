@@ -47,8 +47,9 @@
 		</fileDesc>
 		<encodingDesc>
 			<projectDesc>
-				<p>本TEI文書は，<ref target="https://clarin-eric.github.io/parla-clarin/"
-						>"Parla-CLARIN: A TEI Schema for Corpora of Parliamentary Proceedings, v0.3, 2022-05-03"</ref>に準拠し、中央環境審議会総合政策部会の会議議事録を構造化している．</p>
+				<p>本TEI文書は，<ref target="https://clarin-eric.github.io/parla-clarin/">"Parla-CLARIN:
+						A TEI Schema for Corpora of Parliamentary Proceedings, v0.3,
+						2022-05-03"</ref>に準拠し、中央環境審議会総合政策部会の会議議事録を構造化している．</p>
 			</projectDesc>
 		</encodingDesc>
 		<profileDesc>
@@ -86,72 +87,100 @@
 					<surname>有村</surname>
 					<forename>俊秀</forename>
 				</persName>
-				<affiliation n="2">
+				<affiliation n="1">
 					<orgName ref="https://www.waseda.jp/fpse/">早稲田大学政治経済学術院</orgName>
-					<roleName>教授</roleName>
+					<roleName>教授</roleName></affiliation>
+				<affiliation n="2">
 					<orgName ref="https://prj-rieem.w.waseda.jp/">早稲田大学環境経済経営研究所</orgName>
 					<roleName>所長</roleName>
 				</affiliation>
 			</person>
 			<person xml:id="KumieInoue">
 				<persName><surname>井上</surname><forename>久美枝</forename></persName>
-				<affiliation n="1"
-					><orgName ref="https://www.jtuc-rengo.or.jp/about_rengo/index.html">日本労働組合総連合会</orgName><roleName ref="https://www.jtuc-rengo.or.jp/about_rengo/jtuc/members.html">副事務局長</roleName></affiliation>
+				<affiliation n="1"><orgName
+						ref="https://www.jtuc-rengo.or.jp/about_rengo/index.html"
+						>日本労働組合総連合会</orgName><roleName
+						ref="https://www.jtuc-rengo.or.jp/about_rengo/jtuc/members.html"
+						>副事務局長</roleName></affiliation>
 			</person>
 			<person xml:id="TadashiOtsuka">
-				<persName ref="https://researchmap.jp/read0129856 https://www.waseda.jp/folaw/law/about/faculty/tadashi-otsuka/"><surname>大塚</surname><forename>直</forename></persName>
-				<affiliation n="1"><orgName ref="https://www.waseda.jp/folaw/law/">早稲田大学法学部</orgName><roleName>教授</roleName></affiliation>
+				<persName
+					ref="https://researchmap.jp/read0129856 https://www.waseda.jp/folaw/law/about/faculty/tadashi-otsuka/"
+						><surname>大塚</surname><forename>直</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.waseda.jp/folaw/law/"
+						>早稲田大学法学部</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="YasukoKameyama">
-				<persName ref="https://researchmap.jp/40925 https://www.k.u-tokyo.ac.jp/gsfs/faculty/yasuko_kameyama/"><surname>亀山</surname><forename>康子</forename></persName>
-				<affiliation n="1"
-					><orgName ref="https://www.k.u-tokyo.ac.jp/">東京大学大学院新領域創成科学研究科附属サステイナブル社会デザインセンター</orgName><roleName>教授</roleName></affiliation>
+				<persName
+					ref="https://researchmap.jp/40925 https://www.k.u-tokyo.ac.jp/gsfs/faculty/yasuko_kameyama/"
+						><surname>亀山</surname><forename>康子</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.k.u-tokyo.ac.jp/"
+						>東京大学大学院新領域創成科学研究科附属サステイナブル社会デザインセンター</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="YukoSakita">
 				<persName><surname>崎田</surname><forename>裕子</forename></persName>
-				<occupation n="2"
-					><objectName>ジャーナリスト</objectName><objectName>環境カウンセラー</objectName></occupation>
+				<occupation n="1"
+					><objectName>ジャーナリスト</objectName></occupation><occupation n="2"
+						><objectName>環境カウンセラー</objectName></occupation>
 			</person>
 			<person xml:id="HiroakiShiraishi">
-				<persName ref="https://researchmap.jp/read0003817"><surname>白石</surname><forename>寛明</forename></persName>
-				<affiliation n="1"
-					><orgName ref="https://www.nies.go.jp/index.html">国立環境研究所</orgName><roleName>名誉研究員</roleName></affiliation>
+				<persName ref="https://researchmap.jp/read0003817"
+						><surname>白石</surname><forename>寛明</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.nies.go.jp/index.html"
+						>国立環境研究所</orgName><roleName>名誉研究員</roleName></affiliation>
 			</person>
 			<person xml:id="KatsuhiroTakahashi">
-				<persName ref="https://katchan-inagi.com/"><surname>髙橋</surname><forename>勝浩</forename></persName>
-				<occupation><placeName ref="https://www.city.inagi.tokyo.jp/">稲城市</placeName><roleName>長</roleName></occupation>
-				<affiliation n="1"
-					><orgName ref="https://www.mayors.or.jp/">全国市長会環境対策特別委員会</orgName><roleName>委員長</roleName></affiliation>
+				<persName ref="https://katchan-inagi.com/"
+						><surname>髙橋</surname><forename>勝浩</forename></persName>
+				<occupation><orgName ref="https://www.city.inagi.tokyo.jp/"
+						>稲城市</orgName><roleName>長</roleName></occupation>
+				<affiliation n="1"><orgName ref="https://www.mayors.or.jp/"
+						>全国市長会環境対策特別委員会</orgName><roleName>委員長</roleName></affiliation>
 			</person>
 			<person xml:id="NorikoTakamura">
-				<persName ref="https://researchmap.jp/noriko-t https://www.nies.go.jp/biology/aboutus/staff/takamura_noriko.html"><surname>髙村</surname><forename>典子</forename></persName>
-				<affiliation n="2"
-					><orgName ref="https://www.pref.nagano.lg.jp/lskanken/index.html">長野県諏訪湖環境研究センター</orgName><roleName>センター長</roleName><orgName ref="https://www.nies.go.jp/biology/index.html">国立環境研究所生物多様性領域</orgName><roleName>客員研究員</roleName></affiliation>
+				<persName
+					ref="https://researchmap.jp/noriko-t https://www.nies.go.jp/biology/aboutus/staff/takamura_noriko.html"
+						><surname>髙村</surname><forename>典子</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.pref.nagano.lg.jp/lskanken/index.html"
+						>長野県諏訪湖環境研究センター</orgName><roleName>センター長</roleName></affiliation><affiliation n="2"><orgName
+						ref="https://www.nies.go.jp/biology/index.html"
+						>国立環境研究所生物多様性領域</orgName><roleName>客員研究員</roleName></affiliation>
 			</person>
 			<person xml:id="KazuhikoTakeuchi">
-				<persName ref="https://researchmap.jp/read0007541 https://ifi.u-tokyo.ac.jp/people/takeuchi-kazuhiko/"><surname>武内</surname><forename>和彦</forename></persName>
-				<affiliation n="2"
-					><orgName ref="https://www.iges.or.jp/jp">(公財)地球環境戦略研究機関</orgName><roleName>理事長</roleName><orgName ref="https://ifi.u-tokyo.ac.jp/">東京大学</orgName><roleName>特任教授</roleName></affiliation>
+				<persName
+					ref="https://researchmap.jp/read0007541 https://ifi.u-tokyo.ac.jp/people/takeuchi-kazuhiko/"
+						><surname>武内</surname><forename>和彦</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.iges.or.jp/jp"
+						>(公財)地球環境戦略研究機関</orgName><roleName>理事長</roleName></affiliation><affiliation n="2"><orgName
+						ref="https://ifi.u-tokyo.ac.jp/"
+							>東京大学</orgName><roleName>特任教授</roleName></affiliation>
 			</person>
 			<person xml:id="RisaTanaka">
-				<persName ref="https://www.mpd.ac.jp/education/faculty/RisaTanaka"><surname>田中</surname><forename>里沙</forename></persName>
+				<persName ref="https://www.mpd.ac.jp/education/faculty/RisaTanaka"
+						><surname>田中</surname><forename>里沙</forename></persName>
 				<persName/>
-				<affiliation n="1"><orgName ref="https://www.mpd.ac.jp/">事業構想大学院大学</orgName><roleName>学長</roleName></affiliation>
+				<affiliation n="1"><orgName ref="https://www.mpd.ac.jp/"
+						>事業構想大学院大学</orgName><roleName>学長</roleName></affiliation>
 			</person>
 			<person xml:id="KazumiToyooka">
 				<persName><surname>豊岡</surname><forename>和美</forename></persName>
-				<affiliation n="1"
-					><orgName ref="https://www.tene.jp/">(一社)徳島地域エネルギー</orgName><roleName>代表理事</roleName></affiliation>
+				<affiliation n="1"><orgName ref="https://www.tene.jp/"
+						>(一社)徳島地域エネルギー</orgName><roleName>代表理事</roleName></affiliation>
 			</person>
 			<person xml:id="FutoshiNakamura">
-				<persName ref="https://researchmap.jp/read0166896"><surname>中村</surname><forename>太士</forename></persName>
-				<affiliation n="1"
-					><orgName ref="https://www.agr.hokudai.ac.jp/r">北海道大学大学院農学研究院</orgName><roleName>教授</roleName></affiliation>
+				<persName ref="https://researchmap.jp/read0166896"
+						><surname>中村</surname><forename>太士</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.agr.hokudai.ac.jp/r"
+						>北海道大学大学院農学研究院</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="HirofumiHunakoshi">
 				<persName><surname>船越</surname><forename>弘文</forename></persName>
-				<affiliation n="2"
-					><orgName ref="https://www.keidanren.or.jp/profile/iinkai/pro005.html">(一社)日本経済団体連合会環境委員会</orgName><roleName>地球環境部会長</roleName><orgName ref="https://www.nipponsteel.com/">日本製鉄（株）</orgName><roleName ref="https://www.nipponsteel.com/company/about/executives.html">代表取締役副社長</roleName></affiliation>
+				<affiliation n="1"><orgName
+						ref="https://www.keidanren.or.jp/profile/iinkai/pro005.html"
+						>(一社)日本経済団体連合会環境委員会</orgName><roleName>地球環境部会長</roleName></affiliation><affiliation n="2"><orgName
+						ref="https://www.nipponsteel.com/">日本製鉄（株）</orgName><roleName
+						ref="https://www.nipponsteel.com/company/about/executives.html"
+						>代表取締役副社長</roleName></affiliation>
 			</person>
 			<person xml:id="MutsumiAwaji">
 				<persName><surname>淡路</surname><forename>睦</forename></persName>
@@ -165,8 +194,8 @@
 			</person>
 			<person xml:id="TetsujiIda">
 				<persName><surname>井田</surname><forename>徹治</forename></persName>
-				<affiliation n="1"><orgName>共同通信社</orgName><roleName n="2"
-							><roleName>編集委員</roleName>兼<roleName>論説委員</roleName></roleName></affiliation>
+				<affiliation n="1"><orgName>共同通信社</orgName><roleName n="1"
+							><roleName>編集委員</roleName>兼<roleName n="2">論説委員</roleName></roleName></affiliation>
 			</person>
 			<person xml:id="MamiOku">
 				<persName><surname>奥</surname><forename>真美</forename></persName>
@@ -190,13 +219,13 @@
 			</person>
 			<person xml:id="KaworiKoya">
 				<persName><surname>小屋</surname><forename>かをり</forename></persName>
-				<affiliation n="2"
-						><orgName>日本商工会議所エネルギー・環境専門委員会</orgName><roleName>委員</roleName><orgName>東京ガス株式会社</orgName><roleName>サステナビリティ推進部長</roleName></affiliation>
+				<affiliation n="1"
+					><orgName>日本商工会議所エネルギー・環境専門委員会</orgName><roleName>委員</roleName></affiliation><affiliation n="2"><orgName>東京ガス株式会社</orgName><roleName>サステナビリティ推進部長</roleName></affiliation>
 			</person>
 			<person xml:id="HarumiSuzuki">
 				<persName><surname>鈴木</surname><forename>春美</forename></persName>
-				<affiliation n="2"
-						><orgName>全国女性団体連絡協議会群馬県地域婦人団体連合会</orgName><roleName>書記</roleName><orgName>(有)鈴木まいたけ園</orgName><roleName>取締役</roleName></affiliation>
+				<affiliation n="1"
+					><orgName>全国女性団体連絡協議会群馬県地域婦人団体連合会</orgName><roleName>書記</roleName></affiliation><affiliation n="2"><orgName>(有)鈴木まいたけ園</orgName><roleName>取締役</roleName></affiliation>
 			</person>
 			<person xml:id="KiyoshiTakahashi">
 				<persName><surname>髙橋</surname><forename>清</forename></persName>
@@ -236,12 +265,12 @@
 			</person>
 			<person xml:id="MasakoYamato">
 				<persName><surname>山戸</surname><forename>昌子</forename></persName>
-				<affiliation n="2"
-						><orgName>(一社)日本経済団体連合会環境委員会地球環境部会</orgName><roleName>委員</roleName><orgName><orgName>トヨタ自動車（株）CN開発センター</orgName><orgName>環境エンジニアリング部</orgName></orgName><roleName>チーフプロフェッショナルエンジニア</roleName></affiliation>
+				<affiliation n="1"
+					><orgName>(一社)日本経済団体連合会環境委員会地球環境部会</orgName><roleName>委員</roleName></affiliation><affiliation n="2"><orgName>トヨタ自動車（株）CN開発センター環境エンジニアリング部</orgName><roleName>チーフプロフェッショナルエンジニア</roleName></affiliation>
 			</person>
 		</listPerson>
 		<listPerson>
-			<head>総合政策部会_環境省担当官</head>
+			<head>総合政策部会 環境省担当官</head>
 			<person xml:id="Higashioka_ENV">
 				<persName>
 					<surname>東岡</surname>
