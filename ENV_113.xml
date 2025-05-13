@@ -185,88 +185,88 @@
 			<person xml:id="MutsumiAwaji">
 				<persName><surname>淡路</surname><forename>睦</forename></persName>
 				<affiliation n="1"
-					><orgName>(株)千葉銀行</orgName><roleName>取締役専務執行役員</roleName></affiliation>
+					><orgName ref="https://www.chibabank.co.jp/">(株)千葉銀行</orgName><roleName ref="https://www.chibabank.co.jp/company/info/outline/officer/">取締役専務執行役員</roleName></affiliation>
 			</person>
 			<person xml:id="KenichiIshida">
 				<persName><surname>石田</surname><forename>建一</forename></persName>
 				<affiliation n="1"
-						><orgName>日本気候リーダーズ・パートナーシップ(JCLP)</orgName><roleName>顧問</roleName></affiliation>
+					><orgName ref="https://japan-clp.jp/about/greeting">日本気候リーダーズ・パートナーシップ(JCLP)</orgName><roleName>顧問</roleName></affiliation>
 			</person>
 			<person xml:id="TetsujiIda">
-				<persName><surname>井田</surname><forename>徹治</forename></persName>
-				<affiliation n="1"><orgName>共同通信社</orgName><roleName n="1"
+				<persName ref="https://ja.wikipedia.org/wiki/%E4%BA%95%E7%94%B0%E5%BE%B9%E6%B2%BB"><surname>井田</surname><forename>徹治</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.kyodonews.jp/">共同通信社</orgName><roleName n="1"
 							><roleName>編集委員</roleName>兼<roleName n="2">論説委員</roleName></roleName></affiliation>
 			</person>
 			<person xml:id="MamiOku">
-				<persName><surname>奥</surname><forename>真美</forename></persName>
+				<persName ref="https://researchmap.jp/read0055731 https://www.tmu.ac.jp/stafflist/data/a/356.html"><surname>奥</surname><forename>真美</forename></persName>
 				<affiliation n="1"
-					><orgName>東京都立大学都市環境学部</orgName><roleName>教授</roleName></affiliation>
+					><orgName ref="https://www.tmu.ac.jp/academics/ues.html">東京都立大学都市環境学部</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="ErikoOtokosawa">
 				<persName><surname>男澤</surname><forename>江利子</forename></persName>
 				<affiliation n="1"
-					><orgName>日本公認会計士協会</orgName><roleName>常務理事</roleName></affiliation>
+					><orgName ref="https://www.cpd.jicpa.or.jp/page/jicpa-iasb/index.html">日本公認会計士協会</orgName><roleName>常務理事</roleName></affiliation>
 			</person>
 			<person xml:id="MarikoKawaguchi">
-				<persName><surname>河口</surname><forename>眞理子</forename></persName>
+				<persName ref="https://researchmap.jp/kaitakumin0330"><surname>河口</surname><forename>眞理子</forename></persName>
 				<affiliation n="1"
-					><orgName>立教大学21世紀社会デザイン研究科</orgName><roleName>特任教授</roleName></affiliation>
+					><orgName ref="https://sds.rikkyo.ac.jp/">立教大学21世紀社会デザイン研究科</orgName><roleName>特任教授</roleName></affiliation>
 			</person>
 			<person xml:id="KyokoGendatsu">
 				<persName><surname>堅達</surname><forename>京子</forename></persName>
 				<affiliation n="1"
-						><orgName>(株)ＮＨＫエンタープライズ</orgName><roleName>エグゼクティブ・プロデューサー</roleName></affiliation>
+					><orgName ref="https://www.nhk-ep.co.jp/">(株)ＮＨＫエンタープライズ</orgName><roleName>エグゼクティブ・プロデューサー</roleName></affiliation>
 			</person>
 			<person xml:id="KaworiKoya">
 				<persName><surname>小屋</surname><forename>かをり</forename></persName>
 				<affiliation n="1"
-					><orgName>日本商工会議所エネルギー・環境専門委員会</orgName><roleName>委員</roleName></affiliation><affiliation n="2"><orgName>東京ガス株式会社</orgName><roleName>サステナビリティ推進部長</roleName></affiliation>
+					><orgName ref="https://www.jcci.or.jp/">日本商工会議所エネルギー・環境専門委員会</orgName><roleName>委員</roleName></affiliation><affiliation n="2"><orgName ref="https://www.tokyo-gas.co.jp/index.html">東京ガス株式会社</orgName><roleName>サステナビリティ推進部長</roleName></affiliation>
 			</person>
 			<person xml:id="HarumiSuzuki">
 				<persName><surname>鈴木</surname><forename>春美</forename></persName>
 				<affiliation n="1"
-					><orgName>全国女性団体連絡協議会群馬県地域婦人団体連合会</orgName><roleName>書記</roleName></affiliation><affiliation n="2"><orgName>(有)鈴木まいたけ園</orgName><roleName>取締役</roleName></affiliation>
+					><orgName ref="https://zenjo-kai.jp/">全国女性団体連絡協議会群馬県地域婦人団体連合会</orgName><roleName>書記</roleName></affiliation><affiliation n="2"><orgName ref="https://suzuki-maitake.com/">(有)鈴木まいたけ園</orgName><roleName>取締役</roleName></affiliation>
 			</person>
 			<person xml:id="KiyoshiTakahashi">
-				<persName><surname>髙橋</surname><forename>清</forename></persName>
+				<persName ref="https://researchmap.jp/read0071761 https://www.kitami-it.ac.jp/about/academicstaff/1085/"><surname>髙橋</surname><forename>清</forename></persName>
 				<affiliation n="1"
-					><orgName>北見工業大学地域未来デザイン工学科</orgName><roleName>教授</roleName></affiliation>
+					><orgName ref="https://www.kitami-it.ac.jp/engineering-graduate/tiiki/">北見工業大学地域未来デザイン工学科</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="KeisukeTakegahara">
-				<persName><surname>竹ケ原</surname><forename>啓介</forename></persName>
-				<affiliation n="1"><orgName>(株)日本政策投資銀行
+				<persName ref="https://www.grips.ac.jp/list/jp/facultyinfo/takegahara_keisuke/"><surname>竹ケ原</surname><forename>啓介</forename></persName>
+				<affiliation n="1"><orgName ref="https://www.dbj.jp/">(株)日本政策投資銀行
 					設備投資研究所</orgName><roleName>所長</roleName></affiliation>
 			</person>
 			<person xml:id="KanTanahashi">
 				<persName><surname>棚橋</surname><forename>乾</forename></persName>
 				<affiliation n="1"
-					><orgName>全国小中学校環境教育研究会</orgName><roleName>顧問</roleName></affiliation>
+					><orgName ref="https://kankyokyoiku.jp/">全国小中学校環境教育研究会</orgName><roleName>顧問</roleName></affiliation>
 			</person>
 			<person xml:id="SyunsukeManagi">
-				<persName><surname>馬奈木</surname><forename>俊介</forename></persName>
+				<persName ref="https://researchmap.jp/read0152056 https://hyoka.ofc.kyushu-u.ac.jp/html/100020453_ja.html"><surname>馬奈木</surname><forename>俊介</forename></persName>
 				<affiliation n="1"
-					><orgName>九州大学大学院工学研究院</orgName><roleName>主幹教授</roleName></affiliation>
+					><orgName ref="https://www.eng.kyushu-u.ac.jp/">九州大学大学院工学研究院</orgName><roleName>主幹教授</roleName></affiliation>
 			</person>
 			<person xml:id="TokomoMiyoshi">
 				<persName><surname>三好</surname><forename>智子</forename></persName>
 				<persName/>
 				<affiliation n="1"
-						><orgName>IFOAM（国際有機農業運動連盟アイフォーム）</orgName><roleName>世界理事</roleName></affiliation>
+					><orgName ref="https://www.ifoam.bio/">IFOAM（国際有機農業運動連盟アイフォーム）</orgName><roleName>世界理事</roleName></affiliation>
 			</person>
 			<person xml:id="ToruMorotomi">
-				<persName><surname>諸富</surname><forename>徹</forename></persName>
+				<persName ref="https://researchmap.jp/Toru_Morotomi https://www.econ.kyoto-u.ac.jp/faculty-members/professor/morotomitoru/"><surname>諸富</surname><forename>徹</forename></persName>
 				<affiliation n="1"
-					><orgName>京都大学大学院経済学研究科</orgName><roleName>教授</roleName></affiliation>
+					><orgName ref="https://www.econ.kyoto-u.ac.jp/">京都大学大学院経済学研究科</orgName><roleName>教授</roleName></affiliation>
 			</person>
 			<person xml:id="YutakaYamaguchi">
-				<persName><surname>山口</surname><forename>豊</forename></persName>
+				<persName ref="https://www.tv-asahi.co.jp/announcer/personal/men/yamaguchi/"><surname>山口</surname><forename>豊</forename></persName>
 				<affiliation n="1"
-					><orgName>(株)テレビ朝日</orgName><roleName>アナウンサー</roleName></affiliation>
+					><orgName ref="https://www.tv-asahi.co.jp/">(株)テレビ朝日</orgName><roleName>アナウンサー</roleName></affiliation>
 			</person>
 			<person xml:id="MasakoYamato">
-				<persName><surname>山戸</surname><forename>昌子</forename></persName>
+				<persName ref="https://www.kanazawa-it.ac.jp/kyouinroku/a/CCAHC.html"><surname>山戸</surname><forename>昌子</forename></persName>
 				<affiliation n="1"
-					><orgName>(一社)日本経済団体連合会環境委員会地球環境部会</orgName><roleName>委員</roleName></affiliation><affiliation n="2"><orgName>トヨタ自動車（株）CN開発センター環境エンジニアリング部</orgName><roleName>チーフプロフェッショナルエンジニア</roleName></affiliation>
+					><orgName ref="https://www.keidanren.or.jp/">(一社)日本経済団体連合会環境委員会地球環境部会</orgName><roleName>委員</roleName></affiliation><affiliation n="2"><orgName ref="https://global.toyota/">トヨタ自動車（株）CN開発センター環境エンジニアリング部</orgName><roleName>チーフプロフェッショナルエンジニア</roleName></affiliation>
 			</person>
 		</listPerson>
 		<listPerson>
