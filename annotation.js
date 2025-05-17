@@ -99,7 +99,7 @@ async function showAnnotationDetails(draftInfo, proposalInfo, uSegId) {
         // 発言者情報の抽出
         const note = uEl.querySelector("tei-note");
         if (note) {
-          const speakerInfo = getSpeakerInfoFromU(xDoc, note);
+          const speakerInfo = getSpeakerInfoFromU(xDoc, uEl);
           const speakerDiv = document.createElement("div");
           speakerDiv.style.fontSize = "0.9em";
           speakerDiv.style.padding = "0.5em 1em";
@@ -133,20 +133,29 @@ async function showAnnotationDetails(draftInfo, proposalInfo, uSegId) {
   }
 }
 
-function getSpeakerInfoFromU(xDoc, noteEl) {
-  const ref = noteEl.querySelector("tei-persname")?.getAttribute("ref");
-  if (ref && ref.startsWith("#")) {
-    const id = ref.slice(1);
-    const person = xDoc.querySelector(`#${id}`);
+function getSpeakerInfoFromU(xDoc, uEl) {
+  const who = uEl.getAttribute("who")?.replace(/^#/, "");
+  const noteEl = uEl.querySelector("note");
+
+  let displayName = "(名称不明)";
+
+  if (who) {
+    const person = xDoc.querySelector(`#${who}`);
     if (person) {
-      const name = person.querySelector("tei-persname");
-      const org = person.querySelector("tei-orgname")?.textContent || "";
-      const role = person.querySelector("tei-rolename")?.textContent || "";
-      const fullName = name?.textContent || "(名称なし)";
-      return `${fullName}（${org} ${role}）`;
+      const surname = person.querySelector("tei-persname > tei-surname")?.textContent || "";
+      const forename = person.querySelector("tei-persname > tei-forename")?.textContent || "";
+      const org = person.querySelector("tei-affiliation > tei-orgname")?.textContent || "";
+      const role = person.querySelector("tei-affiliation > tei-rolename")?.textContent || "";
+
+      const fullName = `${surname}${forename}`.trim();
+      const extra = `${org} ${role}`.trim();
+      return extra ? `○${fullName}（${extra}）` : `○${fullName}`;
     }
   }
-  return noteEl.textContent.trim();
+
+  // fallback
+  const fallback = noteEl?.textContent?.trim();
+  return fallback || "(名称不明)";
 }
 
 async function createContent(file, label, match) {
