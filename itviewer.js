@@ -11,8 +11,7 @@ const layoutOptions = {
   "solo": ["x"],
   "x-left-y-right": ["x", "y"],
   "x-left-z-right": ["x", "z"],
-  "x-left-yz-right": ["x", ["y", "z"]],
-  "annotated-view": ["x", "info"]
+  "x-left-yz-right": ["x", ["y", "z"]]
 };
 
 window.onload = function () {
